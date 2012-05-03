@@ -1,6 +1,8 @@
 mendicantuniversity.org
 =======================
 
+A new site for a [new Mendicant](https://github.com/mendicant/mendicantuniversity.org/wiki/Mendicant-University-roadmap)
+
 ## Get up and running for development
 
 1. Fork the repo and clone it to your computer
