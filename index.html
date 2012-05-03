@@ -1,0 +1,64 @@
+---
+title: Mendicant University
+layout: default
+---
+<div id="landing">
+  <div id="welcome">
+    Welcome to
+    <span class="banner">Mendicant University</span>
+  </div>
+
+  <div id="intro">
+    We are a group of software developers who use our technical skills to make a
+    real positive impact on the world. Rather than learning in a traditional
+    classroom setting, we sharpen our skills by working on real projects while helping each other out.
+  </div>
+
+  <div id="posts">
+    <div id="updates">
+      <h2>
+        Recent Updates
+        <a href="#TODO" class="all">View All</a>
+      </h2>
+      <ul>
+        {% for update in site.categories.updates %}
+          <li>
+            <a href="{{update.url}}">
+              {{ update.title }}
+              <span class="date">{{update.date | date: "%Y %B %d"}}</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div id="activities">
+      <h2>
+        Upcoming Activities
+        <a href="#TODO" class="all">View All</a>
+      </h2>
+      <ul>
+        {% for activity in site.categories.activities %}
+          <li>
+            <a href="{{activity.url}}">
+              {{ activity.title }}
+              <span class="date">{{activity.date | date: "%Y %B %d"}}</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="clear"></div>
+  </div>
+
+  <p>
+    Please read the
+    <a href="#TODO">Beginner's Guide to Mendicant University</a>
+    to learn how to get involved.
+  </p>
+
+  <p class="footer">
+    You can find <a href="#TODO">the source</a> for this website on GitHub.
+    Pull requests are welcome!
+  </p>
+</div>

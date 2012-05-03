@@ -72,6 +72,89 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-style: normal;
 }
 
+/* line 3, ../_sass/partials/_landing.sass */
+#landing #welcome {
+  margin: 40px 0;
+  font-size: 40px;
+  text-align: center;
+}
+/* line 8, ../_sass/partials/_landing.sass */
+#landing #welcome span.banner {
+  font-size: 48px;
+  color: #70120b;
+}
+/* line 12, ../_sass/partials/_landing.sass */
+#landing #intro {
+  background: url(/images/logo.png) center top no-repeat;
+  padding-top: 210px;
+  font-size: 23px;
+  text-align: center;
+  margin: 1em 0;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #aaaaaa;
+}
+/* line 21, ../_sass/partials/_landing.sass */
+#landing #posts {
+  margin: 1em 0;
+}
+/* line 23, ../_sass/partials/_landing.sass */
+#landing #posts .clear {
+  clear: left;
+}
+/* line 25, ../_sass/partials/_landing.sass */
+#landing #posts #activities, #landing #posts #updates {
+  width: 400px;
+  float: left;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+/* line 31, ../_sass/partials/_landing.sass */
+#landing #posts #activities h2, #landing #posts #updates h2 {
+  font-size: 1.5em;
+  text-align: left;
+}
+/* line 34, ../_sass/partials/_landing.sass */
+#landing #posts #activities h2 a.all, #landing #posts #updates h2 a.all {
+  font-size: 0.5em;
+  float: right;
+  padding-top: 1em;
+}
+/* line 38, ../_sass/partials/_landing.sass */
+#landing #posts #activities ul, #landing #posts #updates ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 42, ../_sass/partials/_landing.sass */
+#landing #posts #activities ul li a, #landing #posts #updates ul li a {
+  display: block;
+  padding: 2px 4px;
+  border-bottom: 1px solid #999999;
+  text-decoration: none;
+  color: #703838;
+  margin-bottom: 0.5em;
+}
+/* line 49, ../_sass/partials/_landing.sass */
+#landing #posts #activities ul li a span.date, #landing #posts #updates ul li a span.date {
+  float: right;
+}
+/* line 52, ../_sass/partials/_landing.sass */
+#landing #posts #updates {
+  margin-right: 50px;
+}
+/* line 55, ../_sass/partials/_landing.sass */
+#landing p {
+  text-align: center;
+  margin-bottom: 1em;
+}
+/* line 58, ../_sass/partials/_landing.sass */
+#landing p.footer {
+  border-top: 1px solid #aaaaaa;
+  padding-top: 1em;
+  font-size: 0.9em;
+}
+
 /* line 33, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 body {
   line-height: 1.5;
@@ -303,42 +386,15 @@ caption {
   color: #111111;
 }
 
-/* line 12, ../sass/screen.sass */
+/* line 13, ../_sass/screen.sass */
 body {
   background: url(/images/snow.png);
   font-family: "ThryomanesNormal", "Baskerville Old Face", "Century Schoolbook", "Tw Cen MT", serif;
   font-size: 1.25em;
 }
 
-/* line 17, ../sass/screen.sass */
+/* line 18, ../_sass/screen.sass */
 #container {
   margin: 20px auto;
   width: 850px;
-}
-
-/* line 21, ../sass/screen.sass */
-#welcome {
-  margin: 40px 0;
-  font-size: 40px;
-  text-align: center;
-}
-/* line 26, ../sass/screen.sass */
-#welcome span.banner {
-  font-size: 48px;
-  color: #70120b;
-}
-
-/* line 30, ../sass/screen.sass */
-#intro {
-  background: url(/images/logo.png) center top no-repeat;
-  padding-top: 210px;
-  font-size: 23px;
-  text-align: center;
-}
-
-/* line 36, ../sass/screen.sass */
-div.divider {
-  background: url(/images/divider.png) center center no-repeat;
-  height: 28px;
-  margin: 40px 0;
 }
