@@ -398,3 +398,16 @@ body {
   margin: 20px auto;
   width: 850px;
 }
+
+/* line 22, ../_sass/screen.sass */
+header {
+  background: #703b39;
+  padding: 0.25em;
+  text-align: center;
+}
+/* line 26, ../_sass/screen.sass */
+header a, header a:visited {
+  color: white;
+  text-decoration: none;
+  font-size: 3em;
+}

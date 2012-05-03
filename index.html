@@ -18,16 +18,18 @@ layout: default
     <div id="updates">
       <h2>
         Recent Updates
-        <a href="#TODO" class="all">View All</a>
+        <a href="/updates.html" class="all">View All</a>
       </h2>
       <ul>
-        {% for update in site.categories.updates %}
+        {% for update in site.tags.frontpage %}
+          {% if update.category == 'updates' %}
           <li>
             <a href="{{update.url}}">
               {{ update.title }}
               <span class="date">{{update.date | date: "%Y %B %d"}}</span>
             </a>
           </li>
+          {% endif %}
         {% endfor %}
       </ul>
     </div>
@@ -35,16 +37,18 @@ layout: default
     <div id="activities">
       <h2>
         Upcoming Activities
-        <a href="#TODO" class="all">View All</a>
+        <a href="/activities.html" class="all">View All</a>
       </h2>
       <ul>
-        {% for activity in site.categories.activities %}
+        {% for activity in site.tags.frontpage %}
+          {% if activity.category == 'activities' %}
           <li>
             <a href="{{activity.url}}">
               {{ activity.title }}
               <span class="date">{{activity.date | date: "%Y %B %d"}}</span>
             </a>
           </li>
+          {% endif %}
         {% endfor %}
       </ul>
     </div>
@@ -58,7 +62,9 @@ layout: default
   </p>
 
   <p class="footer">
-    You can find <a href="#TODO">the source</a> for this website on GitHub.
-    Pull requests are welcome!
+    You can find
+    <a href="https://github.com/mendicant/mendicantuniversity.org">
+      the source
+    </a> for this website on GitHub. Pull requests are welcome!
   </p>
 </div>

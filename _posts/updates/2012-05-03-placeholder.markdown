@@ -1,7 +1,8 @@
 ---
 title: Update Placeholder
 category: updates
-layout: default
+layout: post
+tags: frontpage
 ---
 
 This is a placeholder for updates
