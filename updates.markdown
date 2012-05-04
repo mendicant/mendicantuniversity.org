@@ -5,6 +5,12 @@ layout: post
 
 ## Updates
 
+<ul>
 {% for update in site.categories.updates %}
-- [{{ update.title }} - {{update.date | date: "%Y %B %d"}}]({{update.url}})
+  <li>
+    <a href="{{update.url}}">
+      {{ update.title }} - {{update.date | date: "%Y %B %d"}}
+    </a>
+  </li>
 {% endfor %}
+</ul>

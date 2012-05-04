@@ -129,26 +129,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 42, ../_sass/partials/_landing.sass */
 #landing #posts #activities ul li a, #landing #posts #updates ul li a {
   display: block;
-  padding: 2px 4px;
-  border-bottom: 1px solid #999999;
+  padding: 0.25em 0;
+  border-bottom: 1px solid #cccccc;
   text-decoration: none;
-  color: #703838;
   margin-bottom: 0.5em;
 }
-/* line 49, ../_sass/partials/_landing.sass */
+/* line 48, ../_sass/partials/_landing.sass */
 #landing #posts #activities ul li a span.date, #landing #posts #updates ul li a span.date {
   float: right;
 }
-/* line 52, ../_sass/partials/_landing.sass */
+/* line 51, ../_sass/partials/_landing.sass */
 #landing #posts #updates {
   margin-right: 50px;
 }
-/* line 55, ../_sass/partials/_landing.sass */
+/* line 54, ../_sass/partials/_landing.sass */
 #landing p {
   text-align: center;
   margin-bottom: 1em;
 }
-/* line 58, ../_sass/partials/_landing.sass */
+/* line 57, ../_sass/partials/_landing.sass */
 #landing p.footer {
   border-top: 1px solid #aaaaaa;
   padding-top: 1em;
@@ -158,8 +157,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 33, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 body {
   line-height: 1.5;
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-  color: #333333;
+  font-family: "ThryomanesNormal", "Baskerville Old Face", "Century Schoolbook", "Tw Cen MT", serif;
+  color: #2a2a2a;
   font-size: 75%;
 }
 
@@ -235,23 +234,23 @@ p .right {
 /* line 62, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 a {
   text-decoration: underline;
-  color: #70120b;
+  color: #703838;
 }
 /* line 18, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a:visited {
-  color: #70120b;
+  color: #703838;
 }
 /* line 21, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a:focus {
-  color: #70120b;
+  color: #703838;
 }
 /* line 24, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a:hover {
-  color: #ae1a11;
+  color: #b60c0e;
 }
 /* line 27, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a:active {
-  color: #70120b;
+  color: #703838;
 }
 
 /* line 63, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
@@ -386,28 +385,53 @@ caption {
   color: #111111;
 }
 
-/* line 13, ../_sass/screen.sass */
+/* line 21, ../_sass/screen.sass */
+html {
+  overflow-y: scroll;
+}
+
+/* line 24, ../_sass/screen.sass */
 body {
   background: url(/images/snow.png);
-  font-family: "ThryomanesNormal", "Baskerville Old Face", "Century Schoolbook", "Tw Cen MT", serif;
   font-size: 1.25em;
 }
 
-/* line 18, ../_sass/screen.sass */
+/* line 28, ../_sass/screen.sass */
 #container {
   margin: 20px auto;
   width: 850px;
 }
 
-/* line 22, ../_sass/screen.sass */
+/* line 32, ../_sass/screen.sass */
+a:hover {
+  -webkit-transition: all 0.35s ease-in;
+  -webkit-transition-delay: 0;
+  -moz-transition: all 0.35s ease-in 0;
+  -ms-transition: all 0.35s ease-in 0;
+  -o-transition: all 0.35s ease-in 0;
+  transition: all 0.35s ease-in 0;
+}
+
+/* line 35, ../_sass/screen.sass */
 header {
   background: #703b39;
   padding: 0.25em;
   text-align: center;
 }
-/* line 26, ../_sass/screen.sass */
+/* line 39, ../_sass/screen.sass */
 header a, header a:visited {
   color: white;
   text-decoration: none;
   font-size: 3em;
+}
+/* line 43, ../_sass/screen.sass */
+header a:hover, header a:visited:hover {
+  text-shadow: #555555 0 0 20px;
+}
+
+/* line 46, ../_sass/screen.sass */
+::-moz-selection, ::selection {
+  background: #1e4c78;
+  color: white;
+  text-shadow: none;
 }

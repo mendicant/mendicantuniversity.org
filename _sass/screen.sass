@@ -1,23 +1,36 @@
 @import compass/reset
 @import blueprint/typography
-@import compass/css3/border-radius
-@import compass/css3/box-shadow
+@import compass/css3/text-shadow
+@import compass/css3/transition
 
 @import partials/fonts
 @import partials/landing
 
+
+$font-color:         #2a2a2a
+$link-color:         #703838
+$link-hover-color:   #B60C0E
+$link-focus-color:   $link-color
+$link-active-color:  $link-color
+$link-visited-color: $link-color
+
+$blueprint-font-family:  "ThryomanesNormal", "Baskerville Old Face", "Century Schoolbook", "Tw Cen MT", serif
+
 +blueprint-typography
 
-$display-fonts: "ThryomanesNormal", "Baskerville Old Face", "Century Schoolbook", "Tw Cen MT", serif
+html
+  overflow-y: scroll
 
 body
   background: url(/images/snow.png)
-  font-family: $display-fonts
   font-size: 1.25em
 
 #container
   margin: 20px auto
   width: 850px
+
+a:hover
+  +single-transition(all, .35s, ease-in, 0)
 
 header
   background: #703B39
@@ -27,3 +40,10 @@ header
     color: #fff
     text-decoration: none
     font-size: 3em
+    &:hover
+      +single-text-shadow(#555, 0, 0, 20px)
+
+::-moz-selection, ::selection
+  background: #1E4C78
+  color: #fff
+  text-shadow: none
