@@ -5,4 +5,17 @@ layout: post
 tags: frontpage
 ---
 
-This is a placeholder for updates
+On 2012 May 03, Gregory Brown and Eric Hodel met to discuss various challenges
+in test-driven development while encouraging the Mendicant University community 
+to listen in and share their thoughts as well.
+
+The epic meeting lasted over three hours, covering the following topics:
+
+* Testing code that depends on randomization
+* Testing callbacks in a publish/subscribe system
+* The challenges involved in UI-based acceptance testing
+* Dealing with brittle tests and magic numbers
+* Speeding up the refactoring feedback loop 
+
+A detailed summary of the discussion as well as a full transcript from the
+meeting are available over on the [Mendicant University wiki](https://github.com/mendicant/mendicantuniversity.org/wiki/TDD-study-session-%282012-May-03%29).
