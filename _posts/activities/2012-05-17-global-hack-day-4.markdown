@@ -15,4 +15,6 @@ The only important thing is that you come ready to work. That means either bring
 
 ---
 
-Please read the [Newcomer's Guide to Mendicant](https://github.com/mendicant/mendicantuniversity.org/wiki/Newcomer%27s-Guide-to-Mendicant) to learn how to get involved. 
+<div align="center">
+Please read the <a href="https://github.com/mendicant/mendicantuniversity.org/wiki/Newcomer%27s-Guide-to-Mendicant">Newcomer's Guide to Mendicant</a> to learn how to get involved. 
+</div>
