@@ -407,8 +407,12 @@ body {
   font-size: 1.5em;
   text-align: center;
 }
-
 /* line 36, ../_sass/screen.sass */
+#container p {
+  text-align: justify;
+}
+
+/* line 39, ../_sass/screen.sass */
 a:hover {
   -webkit-transition: all 0.35s ease-in;
   -webkit-transition-delay: 0;
@@ -418,24 +422,24 @@ a:hover {
   transition: all 0.35s ease-in 0;
 }
 
-/* line 39, ../_sass/screen.sass */
+/* line 42, ../_sass/screen.sass */
 header {
   background: #703b39;
   padding: 0.25em;
   text-align: center;
 }
-/* line 43, ../_sass/screen.sass */
+/* line 46, ../_sass/screen.sass */
 header a, header a:visited {
   color: white;
   text-decoration: none;
   font-size: 3em;
 }
-/* line 47, ../_sass/screen.sass */
+/* line 50, ../_sass/screen.sass */
 header a:hover, header a:visited:hover {
   text-shadow: #555555 0 0 20px;
 }
 
-/* line 50, ../_sass/screen.sass */
+/* line 53, ../_sass/screen.sass */
 ::-moz-selection, ::selection {
   background: #1e4c78;
   color: white;
