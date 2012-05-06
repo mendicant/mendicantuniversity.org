@@ -5,7 +5,7 @@ layout: post
 tags: frontpage
 ---
 
-## {{post.title}}
+## {{ page.title }} -- {{ page.date | date: "%Y %B %d" }}
 
 On 2012 May 03, Gregory Brown and Eric Hodel met to discuss various challenges
 in test-driven development while encouraging the Mendicant University community 
