@@ -1,5 +1,5 @@
 ---
-title: Notes from TDD study session (May 3)
+title: TDD study session summary
 category: updates
 layout: post
 tags: frontpage
