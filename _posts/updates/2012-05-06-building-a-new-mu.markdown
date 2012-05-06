@@ -5,8 +5,6 @@ layout: post
 tags: frontpage
 ---
 
-## {{ page.title }} -- {{ page.date | date: "%Y %B %d" }}
-
 Huge changes are in the winds for us here at Mendicant University. After two
 years of running our program in private, we have decided to finally tear down
 our walls and open up to all those who wish to get involved. But in order to do
