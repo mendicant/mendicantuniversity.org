@@ -1,5 +1,5 @@
 ---
-title: Global Hack Day #4
+title: "Global Hack Day #4"
 category: activities
 layout: post
 tags: frontpage
