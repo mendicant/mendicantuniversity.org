@@ -5,6 +5,8 @@ layout: post
 tags: frontpage
 ---
 
+## {{post.title}}
+
 On 2012 May 03, Gregory Brown and Eric Hodel met to discuss various challenges
 in test-driven development while encouraging the Mendicant University community 
 to listen in and share their thoughts as well. The epic meeting lasted over three 
