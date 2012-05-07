@@ -6,7 +6,9 @@
       <a href="/">Mendicant University</a>
     </header>
     <div id='container'>
-      <h2>{{ page.title }} -- {{ page.date | date: "%Y %B %d" }}</h2>
+      {% if page.date %}
+        <h2>{{ page.title }} -- {{ page.date | date: "%Y %B %d" }}</h2>
+      {% endif %}
       {{content}}
       <hr/>
       <div align="center">
