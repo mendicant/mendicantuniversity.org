@@ -3,8 +3,6 @@ title: Activities
 layout: post
 ---
 
-## Activities
-
 <ul>
 {% for activity in site.categories.activities %}
   <li>
