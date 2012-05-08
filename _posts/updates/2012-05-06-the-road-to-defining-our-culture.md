@@ -34,5 +34,4 @@ community ought to be. We are trying to do something much deeper than simply
 teaching technical skills, and no matter how much we change, we will always be
 looking for ways to make a deeper impact on the world.
 
-> We will set up a town hall meeting to discuss this topic soon, and hope to get
-some community guidelines written up as soon as we can.
+> We will set up a town hall meeting to discuss this topic soon, and hope to get some community guidelines written up as soon as we can.
