@@ -5,7 +5,7 @@ layout: post
 tags: frontpage
 ---
 
-A huge part of the challenge of creating a new [Mendicant
+A huge part of the challenge of [creating a new Mendicant
 University](https://github.com/mendicant/mendicantuniversity.org/wiki/Mendicant-University-roadmap),
 is that we need to figure out how to collectively define our culture. This is
 much harder to do in an open environment than it is in a closed one, and was
