@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* line 17, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,50 +21,50 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 33, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 33, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 body {
   line-height: 1.5;
   font-family: "ThryomanesNormal", "Baskerville Old Face", "Century Schoolbook", "Tw Cen MT", serif;
@@ -72,68 +72,68 @@ body {
   font-size: 75%;
 }
 
-/* line 51, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 51, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   color: #222222;
 }
-/* line 52, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 52, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
   margin: 0;
 }
 
-/* line 53, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 53, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 h1 {
   font-size: 3em;
   line-height: 1;
   margin-bottom: 0.50em;
 }
 
-/* line 54, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 54, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 h2 {
   font-size: 2em;
   margin-bottom: 0.75em;
 }
 
-/* line 55, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 55, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 h3 {
   font-size: 1.5em;
   line-height: 1;
   margin-bottom: 1.00em;
 }
 
-/* line 56, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 56, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 h4 {
   font-size: 1.2em;
   line-height: 1.25;
   margin-bottom: 1.25em;
 }
 
-/* line 57, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 57, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 h5 {
   font-size: 1em;
   font-weight: bold;
   margin-bottom: 1.50em;
 }
 
-/* line 58, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 58, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 h6 {
   font-size: 1em;
   font-weight: bold;
 }
 
-/* line 59, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 59, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 p {
   margin: 0 0 1.5em;
 }
-/* line 60, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 60, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 p .left {
   display: inline;
   float: left;
   margin: 1.5em 1.5em 1.5em 0;
   padding: 0;
 }
-/* line 61, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 61, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 p .right {
   display: inline;
   float: right;
@@ -141,156 +141,156 @@ p .right {
   padding: 0;
 }
 
-/* line 62, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 62, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 a {
   text-decoration: underline;
   color: #703838;
 }
-/* line 18, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a:visited {
   color: #703838;
 }
-/* line 21, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 21, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a:focus {
   color: #703838;
 }
-/* line 24, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a:hover {
   color: #b60c0e;
 }
-/* line 27, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a:active {
   color: #703838;
 }
 
-/* line 63, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 63, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 blockquote {
   margin: 1.5em;
   color: #666666;
   font-style: italic;
 }
 
-/* line 64, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 64, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 strong, dfn {
   font-weight: bold;
 }
 
-/* line 65, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 65, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 em, dfn {
   font-style: italic;
 }
 
-/* line 66, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 66, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 sup, sub {
   line-height: 0;
 }
 
-/* line 67, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 67, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 abbr, acronym {
   border-bottom: 1px dotted #666666;
 }
 
-/* line 68, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 68, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 address {
   margin: 0 0 1.5em;
   font-style: italic;
 }
 
-/* line 69, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 69, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 del {
   color: #666666;
 }
 
-/* line 70, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 70, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 pre {
   margin: 1.5em 0;
   white-space: pre;
 }
 
-/* line 71, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 71, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 pre, code, tt {
   font: 1em "andale mono", "lucida console", monospace;
   line-height: 1.5;
 }
 
-/* line 72, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 72, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 li ul, li ol {
   margin: 0;
 }
 
-/* line 73, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 73, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 ul, ol {
   margin: 0 1.5em 1.5em 0;
   padding-left: 1.5em;
 }
 
-/* line 74, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 74, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 ul {
   list-style-type: disc;
 }
 
-/* line 75, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 75, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 ol {
   list-style-type: decimal;
 }
 
-/* line 76, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 76, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 dl {
   margin: 0 0 1.5em 0;
 }
-/* line 77, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 77, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 dl dt {
   font-weight: bold;
 }
 
-/* line 78, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 78, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 dd {
   margin-left: 1.5em;
 }
 
-/* line 79, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 79, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 table {
   margin-bottom: 1.4em;
   width: 100%;
 }
 
-/* line 80, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 80, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 th {
   font-weight: bold;
 }
 
-/* line 81, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 81, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 thead th {
   background: #c3d9ff;
 }
 
-/* line 82, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 82, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 th, td, caption {
   padding: 4px 10px 4px 5px;
 }
 
-/* line 85, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 85, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 table.striped tr:nth-child(even) td,
 table tr.even td {
   background: #e5ecf9;
 }
 
-/* line 86, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 86, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 tfoot {
   font-style: italic;
 }
 
-/* line 87, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 87, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 caption {
   background: #eeeeee;
 }
 
-/* line 88, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 88, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 .quiet {
   color: #666666;
 }
 
-/* line 89, /Users/seacreature/.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+/* line 89, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 .loud {
   color: #111111;
 }
@@ -320,8 +320,15 @@ body {
 #container p {
   text-align: justify;
 }
+/* line 34, ../_sass/screen.sass */
+#container p.footer {
+  border-top: 1px solid #aaaaaa;
+  padding-top: 1em;
+  font-size: 0.9em;
+  text-align: center;
+}
 
-/* line 35, ../_sass/screen.sass */
+/* line 40, ../_sass/screen.sass */
 a:hover {
   -webkit-transition: all 0.35s ease-in;
   -webkit-transition-delay: 0;
@@ -331,24 +338,24 @@ a:hover {
   transition: all 0.35s ease-in 0;
 }
 
-/* line 38, ../_sass/screen.sass */
+/* line 43, ../_sass/screen.sass */
 header {
   background: #703b39;
   padding: 0.25em;
   text-align: center;
 }
-/* line 42, ../_sass/screen.sass */
+/* line 47, ../_sass/screen.sass */
 header a, header a:visited {
   color: white;
   text-decoration: none;
   font-size: 3em;
 }
-/* line 46, ../_sass/screen.sass */
+/* line 51, ../_sass/screen.sass */
 header a:hover, header a:visited:hover {
   text-shadow: #555555 0 0 20px;
 }
 
-/* line 49, ../_sass/screen.sass */
+/* line 54, ../_sass/screen.sass */
 ::-moz-selection, ::selection {
   background: #1e4c78;
   color: white;
@@ -363,18 +370,18 @@ header a:hover, header a:visited:hover {
   font-style: normal;
 }
 
-/* line 3, /Users/seacreature/devel/mendicantuniversity.org/_sass/partials/_landing.sass */
+/* line 3, ../_sass/partials/_landing.sass */
 #landing #welcome {
   margin: 40px 0;
   font-size: 40px;
   text-align: center;
 }
-/* line 8, /Users/seacreature/devel/mendicantuniversity.org/_sass/partials/_landing.sass */
+/* line 8, ../_sass/partials/_landing.sass */
 #landing #welcome span.banner {
   font-size: 48px;
   color: #70120b;
 }
-/* line 12, /Users/seacreature/devel/mendicantuniversity.org/_sass/partials/_landing.sass */
+/* line 12, ../_sass/partials/_landing.sass */
 #landing #intro {
   background: url(/images/logo.png) center top no-repeat;
   padding-top: 210px;
@@ -384,15 +391,15 @@ header a:hover, header a:visited:hover {
   padding-bottom: 1em;
   border-bottom: 1px solid #aaaaaa;
 }
-/* line 21, /Users/seacreature/devel/mendicantuniversity.org/_sass/partials/_landing.sass */
+/* line 21, ../_sass/partials/_landing.sass */
 #landing #posts {
   margin: 1em 0;
 }
-/* line 23, /Users/seacreature/devel/mendicantuniversity.org/_sass/partials/_landing.sass */
+/* line 23, ../_sass/partials/_landing.sass */
 #landing #posts .clear {
   clear: left;
 }
-/* line 25, /Users/seacreature/devel/mendicantuniversity.org/_sass/partials/_landing.sass */
+/* line 25, ../_sass/partials/_landing.sass */
 #landing #posts #activities, #landing #posts #updates {
   width: 400px;
   float: left;
@@ -400,24 +407,24 @@ header a:hover, header a:visited:hover {
   margin: 0;
   padding: 0;
 }
-/* line 31, /Users/seacreature/devel/mendicantuniversity.org/_sass/partials/_landing.sass */
+/* line 31, ../_sass/partials/_landing.sass */
 #landing #posts #activities h2, #landing #posts #updates h2 {
   font-size: 1.5em;
   text-align: left;
 }
-/* line 34, /Users/seacreature/devel/mendicantuniversity.org/_sass/partials/_landing.sass */
+/* line 34, ../_sass/partials/_landing.sass */
 #landing #posts #activities h2 a.all, #landing #posts #updates h2 a.all {
   font-size: 0.5em;
   float: right;
   padding-top: 1em;
 }
-/* line 38, /Users/seacreature/devel/mendicantuniversity.org/_sass/partials/_landing.sass */
+/* line 38, ../_sass/partials/_landing.sass */
 #landing #posts #activities ul, #landing #posts #updates ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-/* line 42, /Users/seacreature/devel/mendicantuniversity.org/_sass/partials/_landing.sass */
+/* line 42, ../_sass/partials/_landing.sass */
 #landing #posts #activities ul li a, #landing #posts #updates ul li a {
   font-size: 0.85em;
   display: block;
@@ -426,22 +433,16 @@ header a:hover, header a:visited:hover {
   text-decoration: none;
   margin-bottom: 0.5em;
 }
-/* line 49, /Users/seacreature/devel/mendicantuniversity.org/_sass/partials/_landing.sass */
+/* line 49, ../_sass/partials/_landing.sass */
 #landing #posts #activities ul li a span.date, #landing #posts #updates ul li a span.date {
   float: right;
 }
-/* line 52, /Users/seacreature/devel/mendicantuniversity.org/_sass/partials/_landing.sass */
+/* line 52, ../_sass/partials/_landing.sass */
 #landing #posts #updates {
   margin-right: 50px;
 }
-/* line 55, /Users/seacreature/devel/mendicantuniversity.org/_sass/partials/_landing.sass */
+/* line 55, ../_sass/partials/_landing.sass */
 #landing p {
   text-align: center;
   margin-bottom: 1em;
-}
-/* line 58, /Users/seacreature/devel/mendicantuniversity.org/_sass/partials/_landing.sass */
-#landing p.footer {
-  border-top: 1px solid #aaaaaa;
-  padding-top: 1em;
-  font-size: 0.9em;
 }

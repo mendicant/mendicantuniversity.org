@@ -3,8 +3,6 @@ title: Updates
 layout: post
 ---
 
-## Updates
-
 <ul>
 {% for update in site.categories.updates %}
   <li>
