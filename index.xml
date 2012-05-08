@@ -1,0 +1,27 @@
+---
+layout: nil
+---
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mendicant University</title>
+    <link>http://mendicantuniversity.org</link>
+    <atom:link href="http://mendicantuniversity.org/index.xml" rel="self" type="application/rss+xml" />
+    <description>Keep track of all the latest updates and activities offered by Mendicant University</description>
+    <language>en-us</language>
+    <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+
+    {% for post in site.posts %}
+    <item>
+      <title>[{{ post.category | capitalize }}] {{ post.title }}</title>
+      <link>http://mendicantuniversity.org{{ post.url }}</link>
+      <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+      <author>community@mendicantuniversity.org (Mendicant Community)</author>
+      <guid>http://mendicantuniversity.org{{ post.id }}</guid>
+      <description>{{ post.content | xml_escape }}</description>
+    </item>
+    {% endfor %}
+
+  </channel>
+</rss>
