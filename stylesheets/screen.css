@@ -349,13 +349,14 @@ header a, header a:visited {
   color: white;
   text-decoration: none;
   font-size: 3em;
+  text-shadow: rgba(0, 0, 0, 0.75) -1px -1px 1px;
 }
-/* line 51, ../_sass/screen.sass */
+/* line 52, ../_sass/screen.sass */
 header a:hover, header a:visited:hover {
-  text-shadow: #555555 0 0 20px;
+  text-shadow: rgba(0, 0, 0, 0.75) 1px 1px 5px;
 }
 
-/* line 54, ../_sass/screen.sass */
+/* line 55, ../_sass/screen.sass */
 ::-moz-selection, ::selection {
   background: #1e4c78;
   color: white;
