@@ -44,7 +44,7 @@ header:
         <a href="/activities.html" class="all">View All</a>
       </h2>
       <ul>
-        {% for activity in site.tags.frontpage %}
+        {% for activity in site.tags.frontpage reversed%}
           {% if activity.category == 'activities' %}
           <li>
             <a href="{{activity.url}}">
