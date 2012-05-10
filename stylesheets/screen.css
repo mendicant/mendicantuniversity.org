@@ -340,23 +340,37 @@ a:hover {
 
 /* line 43, ../_sass/screen.sass */
 header {
-  background: #703b39;
-  padding: 0.25em;
+  margin: 40px 0;
+  font-size: 40px;
   text-align: center;
 }
-/* line 47, ../_sass/screen.sass */
+/* line 48, ../_sass/screen.sass */
 header a, header a:visited {
-  color: white;
   text-decoration: none;
-  font-size: 3em;
-  text-shadow: rgba(0, 0, 0, 0.75) -1px -1px 1px;
+  color: black;
 }
-/* line 52, ../_sass/screen.sass */
+/* line 51, ../_sass/screen.sass */
 header a:hover, header a:visited:hover {
-  text-shadow: rgba(0, 0, 0, 0.75) 1px 1px 5px;
+  color: #1e4c78;
+}
+/* line 53, ../_sass/screen.sass */
+header a.banner, header a:visited.banner {
+  font-size: 48px;
+  color: #70120b;
+}
+/* line 56, ../_sass/screen.sass */
+header a.banner:hover, header a:visited.banner:hover {
+  color: #b60c0e;
 }
 
-/* line 55, ../_sass/screen.sass */
+/* line 59, ../_sass/screen.sass */
+h2.title {
+  padding: 0.25em 0;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+
+/* line 64, ../_sass/screen.sass */
 ::-moz-selection, ::selection {
   background: #1e4c78;
   color: white;
@@ -372,17 +386,6 @@ header a:hover, header a:visited:hover {
 }
 
 /* line 3, ../_sass/partials/_landing.sass */
-#landing #welcome {
-  margin: 40px 0;
-  font-size: 40px;
-  text-align: center;
-}
-/* line 8, ../_sass/partials/_landing.sass */
-#landing #welcome span.banner {
-  font-size: 48px;
-  color: #70120b;
-}
-/* line 12, ../_sass/partials/_landing.sass */
 #landing #intro {
   background: url(/images/logo.png) center top no-repeat;
   padding-top: 210px;
@@ -392,15 +395,15 @@ header a:hover, header a:visited:hover {
   padding-bottom: 1em;
   border-bottom: 1px solid #aaaaaa;
 }
-/* line 21, ../_sass/partials/_landing.sass */
+/* line 12, ../_sass/partials/_landing.sass */
 #landing #posts {
   margin: 1em 0;
 }
-/* line 23, ../_sass/partials/_landing.sass */
+/* line 14, ../_sass/partials/_landing.sass */
 #landing #posts .clear {
   clear: left;
 }
-/* line 25, ../_sass/partials/_landing.sass */
+/* line 16, ../_sass/partials/_landing.sass */
 #landing #posts #activities, #landing #posts #updates {
   width: 400px;
   float: left;
@@ -408,24 +411,24 @@ header a:hover, header a:visited:hover {
   margin: 0;
   padding: 0;
 }
-/* line 31, ../_sass/partials/_landing.sass */
+/* line 22, ../_sass/partials/_landing.sass */
 #landing #posts #activities h2, #landing #posts #updates h2 {
   font-size: 1.5em;
   text-align: left;
 }
-/* line 34, ../_sass/partials/_landing.sass */
+/* line 25, ../_sass/partials/_landing.sass */
 #landing #posts #activities h2 a.all, #landing #posts #updates h2 a.all {
   font-size: 0.5em;
   float: right;
   padding-top: 1em;
 }
-/* line 38, ../_sass/partials/_landing.sass */
+/* line 29, ../_sass/partials/_landing.sass */
 #landing #posts #activities ul, #landing #posts #updates ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-/* line 42, ../_sass/partials/_landing.sass */
+/* line 33, ../_sass/partials/_landing.sass */
 #landing #posts #activities ul li a, #landing #posts #updates ul li a {
   font-size: 0.85em;
   display: block;
@@ -434,15 +437,15 @@ header a:hover, header a:visited:hover {
   text-decoration: none;
   margin-bottom: 0.5em;
 }
-/* line 49, ../_sass/partials/_landing.sass */
+/* line 40, ../_sass/partials/_landing.sass */
 #landing #posts #activities ul li a span.date, #landing #posts #updates ul li a span.date {
   float: right;
 }
-/* line 52, ../_sass/partials/_landing.sass */
+/* line 43, ../_sass/partials/_landing.sass */
 #landing #posts #updates {
   margin-right: 50px;
 }
-/* line 55, ../_sass/partials/_landing.sass */
+/* line 46, ../_sass/partials/_landing.sass */
 #landing p {
   text-align: center;
   margin-bottom: 1em;

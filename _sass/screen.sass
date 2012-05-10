@@ -41,16 +41,25 @@ a:hover
   +single-transition(all, .35s, ease-in, 0)
 
 header
-  background: #703B39
-  padding: 0.25em
+  margin: 40px 0
+  font-size: 40px
   text-align: center
+
   a, a:visited
-    color: #fff
     text-decoration: none
-    font-size: 3em
-    +single-text-shadow(rgba(0,0,0,0.75), -1px, -1px, 1px)
+    color: #000
     &:hover
-      +single-text-shadow(rgba(0,0,0,0.75), 1px, 1px, 5px)
+      color: #1E4C78
+    &.banner
+      font-size: 48px
+      color: #70120B
+      &:hover
+        color: $link-hover-color
+
+h2.title
+  padding: 0.25em 0
+  border-top: 1px solid #CCC
+  border-bottom: 1px solid #CCC
 
 ::-moz-selection, ::selection
   background: #1E4C78

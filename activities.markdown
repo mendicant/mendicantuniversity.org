@@ -1,6 +1,6 @@
 ---
 title: Activities
-layout: post
+layout: list
 header:
   <link rel="alternate" type="application/rss+xml"
   title="Activities RSS feed for Mendicant University"
