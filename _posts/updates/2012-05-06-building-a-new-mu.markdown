@@ -2,7 +2,6 @@
 title: Building a new kind of school
 category: updates
 layout: post
-tags: frontpage
 ---
 
 Huge changes are in the winds for us here at Mendicant University. After two
