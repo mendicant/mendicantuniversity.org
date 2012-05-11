@@ -27,7 +27,7 @@ It's hard to believe how quickly time passes: A week ago Mendicant University wa
 
 * Shane Emmons is running [open office hours on Monday, May 14](/activities/2012/05/14/office-hours-with-shane-emmons.html). All are welcome to request code reviews, ask questions, or otherwise get help with their projects on a first-come, first-serve basis.
 
-* Eric Gjersen is hosting a [social gathering on Tuesday, May 15](/2012/05/15/social-gathering.html). Come get to know the folks involved with Mendicant University, and have some fun doing it!
+* Eric Gjersten is hosting a [social gathering on Tuesday, May 15](/2012/05/15/social-gathering.html). Come get to know the folks involved with Mendicant University, and have some fun doing it!
 
 * Gregory Brown has scheduled [Global Hack Day #4 on Thursday, May 17](/activities/2012/05/17/global-hack-day-4.html). If you have a project that you can use some help with, or you want to contribute to someone else's project, this is a great way to do it. Even if you plan to work on your own side project, it is nice to be able to occasionally share some status updates or ask some questions as you go, and our hack days are perfect for that kind of thing.
 
