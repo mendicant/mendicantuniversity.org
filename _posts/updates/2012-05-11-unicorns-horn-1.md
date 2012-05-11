@@ -33,4 +33,4 @@ It's hard to believe how quickly time passes: A week ago Mendicant University wa
 
 * The homesteaders will continue to work on various tasks that will help us get through this transition phase smoothly. We still need a few more volunteers to help out, so be sure to contact Gregory Brown if you are an existing community member who would like to help us build out the foundation for the new school.
 
-That pretty much wraps up what we've been working on and what we plan to do in the coming week. Be sure to stay tuned for another Unicorn's Horn post next Friday, or help make the news by participating in our projects and activities between now and then.
+That pretty much wraps up what we've been working on this week and what we plan to do in the coming week. Be sure to stay tuned for another Unicorn's Horn post next Friday, or help make the news by participating in our projects and activities between now and then.
