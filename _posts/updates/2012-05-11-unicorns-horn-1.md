@@ -19,7 +19,7 @@ It's hard to believe how quickly time passes: A week ago Mendicant University wa
 
 * We set up a [new public mailing list](http://lists.mendicantuniversity.org/listinfo.cgi/community-mendicantuniversity.org) for our community to use, but it was down for almost 48 hours due to problems with Dreamhost. Once things came back alive, we started a nice [introductions thread](http://lists.mendicantuniversity.org/pipermail/community-mendicantuniversity.org/Week-of-Mon-20120507/thread.html) so that our newcomers and existing community members could get to know one another.
 
-* Gregory Brown posted an update with some background information about his original [vision for Mendicant University](http://localhost:4000/updates/2012/05/06/the-road-to-defining-our-culture.html). Please check this post out if you want to learn more about what we are trying to do here; understanding our past is key to figuring out where we'd like to end up in the future.
+* Gregory Brown posted an update with some background information about his original [vision for Mendicant University](/updates/2012/05/06/the-road-to-defining-our-culture.html). Please check this post out if you want to learn more about what we are trying to do here; understanding our past is key to figuring out where we'd like to end up in the future.
 
 * Carlos Antonio [released his i18n_alchemy gem](http://blog.plataformatec.com.br/2012/05/i18n-alchemy-localization-and-parsing/), a project he built several months ago during a course here at Mendicant University.
 
