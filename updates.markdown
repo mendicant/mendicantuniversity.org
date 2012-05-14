@@ -7,7 +7,7 @@ header:
   href="/updates.xml" />
 ---
 
-<ul>
+<ul class="posts">
 {% for update in site.categories.updates %}
   <li>
     <a href="{{update.url}}">
