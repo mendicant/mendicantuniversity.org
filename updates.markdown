@@ -7,11 +7,12 @@ header:
   href="/updates.xml" />
 ---
 
-<ul>
+<ul class="posts">
 {% for update in site.categories.updates %}
   <li>
     <a href="{{update.url}}">
-      {{ update.title }} - {{update.date | date: "%Y %B %d"}}
+      {{ update.title }}
+      <span class="date">{{update.date | date: "%Y %B %d"}}</span>
     </a>
   </li>
 {% endfor %}

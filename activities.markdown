@@ -7,11 +7,12 @@ header:
   href="/activities.xml" />
 ---
 
-<ul>
+<ul class="posts">
 {% for activity in site.categories.activities %}
   <li>
     <a href="{{activity.url}}">
-      {{ activity.title }} - {{activity.date | date: "%Y %B %d"}}
+      {{ activity.title }}
+      <span class="date">{{activity.date | date: "%Y %B %d"}}</span>
     </a>
   </li>
 {% endfor %}

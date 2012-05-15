@@ -24,7 +24,7 @@ header:
         Recent Updates
         <a href="/updates.html" class="all">View All</a>
       </h2>
-      <ul>
+      <ul class="posts">
         {% for update in site.tags.frontpage %}
           {% if update.category == 'updates' %}
           <li>
@@ -43,7 +43,7 @@ header:
         Upcoming Activities
         <a href="/activities.html" class="all">View All</a>
       </h2>
-      <ul>
+      <ul class="posts">
         {% for activity in site.tags.frontpage reversed%}
           {% if activity.category == 'activities' %}
           <li>

@@ -33,6 +33,7 @@ body
     text-align: justify
     &.footer
       border-top: 1px solid #aaa
+    &.footer, &.footer-no-border
       padding-top: 1em
       font-size: 0.9em
       text-align: center
@@ -65,6 +66,20 @@ h2.title
   background: #1E4C78
   color: #fff
   text-shadow: none
+
+ul.posts
+  list-style-type: none
+  margin: 0
+  padding: 0
+  li a
+    font-size: 0.85em
+    display: block
+    padding: 0.25em 0
+    border-bottom: 1px solid #ccc
+    text-decoration: none
+    margin-bottom: 0.5em
+    span.date
+      float: right
 
 @import partials/fonts
 @import partials/landing
