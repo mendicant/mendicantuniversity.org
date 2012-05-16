@@ -1,0 +1,24 @@
+---
+title: "Town Hall Meeting"
+category: activities
+layout: post
+tags: frontpage
+---
+
+Mendicant University is a project run by and for its community.
+Our town hall meetings provide a way for us to exchange ideas,
+plan activities, and discuss important issues with one another
+so that we can keep making this school better and better.
+
+We strongly encourage both newcomers and active community 
+members to participate in these meetings. They are meant to
+be a welcoming place to get your questions answered about 
+the school, to raise any concerns you have about how things
+have been going, and also to get involved with the process
+of running the school itself.
+
+> Please join us on May 23 from 14:00-15:30 UTC. The central
+> discussion topic for this meeting will 
+> be "Defining the culture of Mendicant University", but there
+> will also be time for an open-ended roundtable discussion
+> about all things Mendicant.
