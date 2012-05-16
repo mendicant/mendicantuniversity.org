@@ -5,7 +5,7 @@ layout: post
 tags: frontpage
 ---
 
-Mendicant University is a project run by and for its community.
+Mendicant University is run by and for its community.
 Our town hall meetings provide a way for us to exchange ideas,
 plan activities, and discuss important issues with one another
 so that we can keep making this school better and better.
