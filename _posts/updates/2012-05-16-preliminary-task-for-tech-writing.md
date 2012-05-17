@@ -8,7 +8,7 @@ tags: frontpage
 Gregory Brown will be running a 90-minute study session on technical writing in
 late May or early June. This session will focus on the general challenges
 involved in communicating complex ideas through writing, and does not require
-any special background in particular problem domain.
+any special background in a particular field.
 
 To make sure that those attending the session have some common ground to
 start from, Gregory has put together a [preliminary writing task](http://forum.mendicantuniversity.org/discussion/17/task-for-the-upcoming-technical-writing-session) 
