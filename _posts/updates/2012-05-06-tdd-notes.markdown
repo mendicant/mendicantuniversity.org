@@ -2,7 +2,6 @@
 title: TDD study session summary
 category: updates
 layout: post
-tags: frontpage
 ---
 
 On 2012 May 03, Gregory Brown and Eric Hodel met to discuss various challenges
