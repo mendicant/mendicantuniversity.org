@@ -1,5 +1,5 @@
 ---
-title: "Planning a technical writing study session"
+title: "Planning a tech. writing study session"
 category: updates
 layout: post
 tags: frontpage
