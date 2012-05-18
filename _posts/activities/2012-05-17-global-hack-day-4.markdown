@@ -2,7 +2,6 @@
 title: "Global Hack Day"
 category: activities
 layout: post
-tags: frontpage
 ---
 
 Many programming groups have periodic hack nights where folks get together and work on their own projects while sharing questions and ideas with one another. Recently, we've been trying to do something similar here at Mendicant University, but on a global scale.
