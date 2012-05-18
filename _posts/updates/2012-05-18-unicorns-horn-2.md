@@ -7,7 +7,7 @@ tags: frontpage
 
 > The Unicorn's Horn is a weekly summary of what we have been up to lately at Mendicant University. It should come in handy for folks who want to keep up with what we are working on, but don't have time to read each and every one of our updates.
 
-Hi everyone! Here comes another weekly dose of news about mendicant university. All the recent changes have made the university move forward again and this are some of the events that happened this week.
+Hi everyone! Here comes another weekly dose of news about Mendicant University. All the recent changes have made the university move forward again and this are some of the events that happened this week.
 
 #### What happened this week:
 
