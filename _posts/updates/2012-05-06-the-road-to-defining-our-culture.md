@@ -2,7 +2,6 @@
 title: The road to defining our culture 
 category: updates
 layout: post
-tags: frontpage
 ---
 
 A huge part of the challenge of [creating a new Mendicant
