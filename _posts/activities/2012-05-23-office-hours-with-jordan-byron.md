@@ -2,8 +2,9 @@
 title: Office Hours with Jordan Byron
 category: activities
 layout: post
-tags: frontpage
 ---
+
+> [The transcript](http://is.gd/ba5ncc) from Jordan's office hours is now online. During his office hours he discussed rendering partials in Rails and somehow got on the topic of marching band :)
 
 Come one come all on a rip roaring good time with me, your gracious host, [Jordan Byron](https://github.com/mendicant/mendicantuniversity.org/wiki/Jordan-Byron), as we dive deep into all your frontend web development questions. When does this fantastic voyage cast off you ask? We ride Wednesday, May 23 between 13:00 and 16:00 UTC.
 
