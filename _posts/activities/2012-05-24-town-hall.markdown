@@ -2,7 +2,6 @@
 title: "Town Hall Meeting"
 category: activities
 layout: post
-tags: frontpage
 ---
 
 Mendicant University is run by and for its community.
