@@ -13,7 +13,7 @@ Howdy everybody! Here's your weekly dose of Mendicant news.
 
 * Jordan Byron and Shane Emmons held office hours this week. Discussions ranged from Rails to Marching Band.
 
-* We held a Town Hall meeting [on Wednesday](https://gist.github.com/2787815). We discussed why people are involved with Mendicant, and began discussing our community Guidelines. Specifically we focused on how to maintain Mendicant as a safe community and to define our relationship with Open Source. You can read all about it in [the transcript](https://gist.github.com/2787815) and [associated EtherPad](http://community.mendicantuniversity.org:9001/p/mu-culture-1).
+* We held a Town Hall meeting [on Wednesday](https://gist.github.com/2787815). We discussed why people are involved with Mendicant, and began discussing our community Guidelines. Specifically we focused on how to maintain Mendicant as a safe community and to define our relationship with Open Source. You can read all about it in [this meeting summary](https://github.com/mendicant/mendicantuniversity.org/wiki/Town-Hall-Meeting-%282012-05-24%29).
 
 #### Upcoming Plans:
 
