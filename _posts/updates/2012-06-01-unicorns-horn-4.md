@@ -7,7 +7,7 @@ tags: frontpage
 
 > The Unicorn's Horn is a weekly summary of what we have been up to lately at Mendicant University. It should come in handy for folks who want to keep up with what we are working on, but don't have time to read each and every one of our updates.
 
-When Mendicant University was still a private community, most of the burden of organizing and executing courses and activities fell on the shoulder of Greg. This was something we wanted to change by going public. While this week was rather calm activity-wise, the homesteaders are working to make the new Mendicant an easy community for someone to pitch an activity idea, organize it with those interested and run it publicly. 
+When Mendicant University was still a private community, most of the burden of organizing and executing courses and activities fell on Gregory Brown's shoulders. This was something we wanted to change by going public. While this week was rather calm activity-wise, the homesteaders are working to make the new Mendicant an easy community for someone to pitch an activity idea, organize it with those interested and run it publicly. 
 
 #### What happened this week: ####
 
