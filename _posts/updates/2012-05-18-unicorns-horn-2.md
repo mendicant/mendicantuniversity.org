@@ -2,6 +2,7 @@
 title: "The Unicorn's Horn, Issue #2"
 category: updates
 layout: post
+tags: frontpage
 ---
 
 > The Unicorn's Horn is a weekly summary of what we have been up to lately at Mendicant University. It should come in handy for folks who want to keep up with what we are working on, but don't have time to read each and every one of our updates.
