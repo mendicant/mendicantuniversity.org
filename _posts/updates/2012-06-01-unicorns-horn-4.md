@@ -21,7 +21,7 @@ When Mendicant University was still a private community, most of the burden of o
 
 * Gregory Brown will host a [Technical Writing Study Session on Tuesday, June 05](http://mendicantuniversity.org/activities/2012/06/05/technical-writing.html). All are welcome to come listen in, but those who wish to be actively involved in the session are strongly encouraged to complete this preliminary [writing task](http://forum.mendicantuniversity.org/discussion/17/task-for-the-upcoming-technical-writing-session).
 
-* Rafa de Castro is organizing a Reading Club for [Beautiful Visualization](forum.mendicantuniversity.org/discussion/21/reading-club-beautiful-visualization). It's still in the preparations stage so come show your interest.
+* Rafa de Castro is organizing a Reading Club for [Beautiful Visualization](http://forum.mendicantuniversity.org/discussion/21/reading-club-beautiful-visualization). It's still in the preparations stage so come show your interest.
 
 * Gregory Brown, Eric Hodel, and Gregory Moeck will be hosting a study session on Test-Driven Development within the next few days. Stay tuned for details. 
 
