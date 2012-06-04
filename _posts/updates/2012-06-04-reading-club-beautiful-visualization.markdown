@@ -1,6 +1,6 @@
 ---
 title: "Book Club: Beautiful Visualization"
-category: activities
+category: updates
 layout: post
 tags: frontpage
 ---
