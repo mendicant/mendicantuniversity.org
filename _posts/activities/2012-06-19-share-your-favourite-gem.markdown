@@ -2,6 +2,7 @@
 title: "Share Your Favourite Gem"
 category: activities
 layout: post
+tags: frontpage
 ---
 
 On June 19th from 17:00-18:00 UTC, Sean Marcia will be moderating a discussion
