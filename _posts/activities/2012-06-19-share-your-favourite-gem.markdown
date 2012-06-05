@@ -23,7 +23,7 @@ Everyone is encouraged and welcome to attend, from those of you who are
 writing their first "Hello, World!" program to those who have written books
 titled _Ruby Best Practices_.
 
-It is probably a good idea to be familiar with [Rubygems](http://rubygems.org)
+It's a good idea to be familiar with [Rubygems](http://rubygems.org)
 and [The Ruby Toolbox](https://www.ruby-toolbox.com/) if you plan on stopping
 by.
 
