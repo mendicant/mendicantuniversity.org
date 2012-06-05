@@ -12,7 +12,7 @@ need.
 
 Stop by if you are starting a new project and feel like having a discussion on
 what the best gems are for authentication and authorization. Maybe you have
-found yourself having to work with excel spreadsheets but beed to write the
+found yourself having to work with excel spreadsheets but need to write the
 data to googlespreads and need gem recommendations. Perhaps you have
 discovered a little known gem (sorry, I couldn't resist the pun) of a gem that
 you want to share with everyone. Or maybe you are using a well known gem for a
