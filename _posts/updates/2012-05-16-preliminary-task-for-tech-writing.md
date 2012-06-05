@@ -2,6 +2,7 @@
 title: "Plans for a session on technical writing"
 category: updates
 layout: post
+tags: frontpage
 ---
 
 Gregory Brown will be running a 90-minute study session on technical writing in
