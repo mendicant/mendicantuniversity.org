@@ -5,7 +5,8 @@ layout: post
 tags: frontpage
 ---
 
-During our last study session on test-driven development, Gregory Brown and Eric
+During our last [study session on
+TDD](http://mendicantuniversity.org/updates/2012/05/06/tdd-notes.html), Gregory Brown and Eric
 Hodel were reminded of an awesome talk that Gregory Moeck gave on mock objects
 at RubyConf 2011. That eventually lead them to hunt him down to run this
 followup session!
