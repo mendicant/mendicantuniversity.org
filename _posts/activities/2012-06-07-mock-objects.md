@@ -2,7 +2,6 @@
 title: "Mock Objects Study Session"
 category: activities
 layout: post
-tags: frontpage
 ---
 
 During our last [study session on
