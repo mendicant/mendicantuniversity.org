@@ -2,7 +2,6 @@
 title: "Mock Objects Study Session"
 category: activities
 layout: post
-tags: frontpage
 ---
 
 During our last [study session on
@@ -14,7 +13,7 @@ followup session!
 If you are interested in test-driven development in general and mock objects in
 particular, please join us on June 7 from 23:30 - 01:00 UTC for a group
 discussion. We will reflect on Gregory's talk
-([video](http://confreaks.com/videos/659-rubyconf2011-why-you-don-t-get-mock-objects),
+([video](http://www.youtube.com/watch?v=R9FOchgTtLM),
 [slides](https://speakerdeck.com/u/gmoeck/p/why-you-dont-get-mock-objects)) and surely go off
 on various tangents related to the general theme.
 
