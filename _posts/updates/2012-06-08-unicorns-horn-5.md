@@ -7,7 +7,7 @@ tags: frontpage
 
 > The Unicorn's Horn is a weekly summary of what we have been up to lately at Mendicant University. It should come in handy for folks who want to keep up with what we are working on, but don't have time to read each and every one of our updates.
 
-It's been a busy week in Mendicant-land! As we finish up week 5 of the new direction for Mendicant University, we're seeing an increasing number of community members stepping up and organizing office hours, study sessions, open source clinics, and more. The amount and variety of activities are helping to shape the future of MU.  Let's keep it up!
+It's been a busy week in Mendicant-land. As we finish up week 5 of the new direction for Mendicant University, we're seeing an increasing number of community members stepping up and organizing office hours, study sessions, open source clinics, and more. The amount and variety of activities are helping to shape the future of MU.  Let's keep it up!
 
 This week also marks the 2-year anniversary of Mendicant University's conception from the brain of Gregory Brown and into the world. For your enjoyment, here's the [idea that started it all](http://blog.rubybestpractices.com/posts/gregory/025-ruby-mendicant-university.html). We want to commemorate our birthday with an 'open house' event soon, so stay tuned.
 
