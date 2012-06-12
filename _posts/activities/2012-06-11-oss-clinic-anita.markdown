@@ -2,7 +2,6 @@
 title: "Open Source Clinic: Anita"
 category: activities
 layout: post
-tags: frontpage
 ---
 
 > *Good news everyone!*
