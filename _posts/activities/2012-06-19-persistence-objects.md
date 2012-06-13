@@ -1,5 +1,5 @@
 ---
-title: "Persistence Objects vs Business Logic Objects Study Session"
+title: "Persistence Objects vs Domain Logic"
 category: activities
 layout: post
 tags: frontpage
