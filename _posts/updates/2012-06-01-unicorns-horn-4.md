@@ -2,12 +2,11 @@
 title: "The Unicorn's Horn, Issue #4"
 category: updates
 layout: post
-tags: frontpage
 ---
 
 > The Unicorn's Horn is a weekly summary of what we have been up to lately at Mendicant University. It should come in handy for folks who want to keep up with what we are working on, but don't have time to read each and every one of our updates.
 
-When Mendicant University was still a private community, most of the burden of organizing and executing courses and activities fell on Gregory Brown's shoulders. This is something we wanted to change in our new way of doing things. While this week was rather calm activity-wise, the homesteaders are working to make the new Mendicant an easy community for someone to pitch an activity idea, organize it with those interested and run it publicly. 
+When Mendicant University was still a private community, most of the burden of organizing and executing courses and activities fell on Gregory Brown's shoulders. This is something we wanted to change in our new way of doing things. While this week was rather calm activity-wise, the homesteaders are working to make the new Mendicant an easy community for someone to pitch an activity idea, organize it with those interested and run it publicly.
 
 #### What happened this week: ####
 
@@ -23,7 +22,7 @@ When Mendicant University was still a private community, most of the burden of o
 
 * Rafa de Castro is organizing a Reading Club for [Beautiful Visualization](http://forum.mendicantuniversity.org/discussion/21/reading-club-beautiful-visualization). It's still in the preparations stage so come show your interest.
 
-* Gregory Brown, Eric Hodel, and Gregory Moeck will be hosting a study session on Test-Driven Development within the next few days. Stay tuned for details. 
+* Gregory Brown, Eric Hodel, and Gregory Moeck will be hosting a study session on Test-Driven Development within the next few days. Stay tuned for details.
 
 * Shane Emmons is organizing an event for folks to get together and hack on the Anita IRC bot, and it will most likely be run on Monday, June 11.
 
