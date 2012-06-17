@@ -1,29 +1,42 @@
 $(function() {
   DecorateTime.eachIn($('p'), function(data) {
-    var formattedStart, dataStart, dataEnd, openingTag, closingTag;
+    var localTet, utcText, dataLocal, dataUtc, dataOffset, openingTag, closingTag;
 
-    formattedStart = data.local.month + " " + data.local.date + ", " + data.local.start
+    localText = data.local.text.replace(/\s+UTC[\-+]\d+/, '')
+    utcText   = data.utc.text.replace(/\s+UTC/, '')
 
-    dataStart      = 'data-start="'  + formattedStart    + '"';
-    dataEnd        = 'data-end="'    + data.local.end    + '"';
-    dataOffset     = 'data-offset="' + data.local.offset + '"';
+    dataLocal   = 'data-local="'   + localText + '"';
+    dataUtc     = 'data-utc="'     + utcText   + '"';
+    dataOffset  = 'data-offset="' + data.local.offset + '"';
+    dataAttrs   =  dataLocal + ' ' + dataUtc + ' ' + dataOffset
 
-    openingTag = '<span class="date-time" ' + dataStart + ' ' + dataEnd + ' ' + dataOffset + '>';
-    closingTag = '</span>';
+    openingTag  = '<span class="date-time">';
+    contents    = '<span class="text"' + dataAttrs + '>' + utcText + '</span>';
+    timezoneTag = '<span class="time-zone utc">UTC</span>';
+    closingTag  = '</span>';
 
-    return openingTag + data.text + closingTag;
+    return openingTag + contents + timezoneTag + closingTag;
   });
 
-  $('.date-time').on('mouseover', function() {
-    var $el    = $(this).first()
-        start  = $el.data('start'),
-        end    = $el.data('end'),
-        offset = $el.data('offset');
+  $('.date-time .time-zone').on('click', function() {
+    var $text       = $(this).siblings('.text').first(),
+        $timeZone   = $(this),
+        utc         = $text.data('utc'),
+        local       = $text.data('local'),
+        localOffset = $text.data('offset');
 
-	$el.html('Local time: ' + start + ' - ' + end + ' ' + offset);
-  });
+    if ($timeZone.hasClass('utc')) {
+      $timeZone.removeClass('utc');
+      $timeZone.addClass('local');
 
-  $('.date-time').on('mouseout', function() {
-    // $('#local-date-time').remove();
+      $text.html(local);
+      $timeZone.html(localOffset);
+     } else {
+      $timeZone.removeClass('local');
+      $timeZone.addClass('utc');
+
+      $text.html(utc);
+      $timeZone.html('UTC');
+     }
   });
 });

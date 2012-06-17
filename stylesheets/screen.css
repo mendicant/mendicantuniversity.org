@@ -331,6 +331,26 @@ ul.posts li a span.date {
   float: right;
 }
 
+.date-time {
+  display: inline-block;
+  position: relative;
+}
+.date-time .time-zone {
+  border-radius: 3px;
+  margin-left: 5px;
+  font-size: 0.5em;
+  background-color: #cccccc;
+  padding: 3px 5px 1px 5px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -5px;
+  line-height: 25px;
+}
+.date-time .time-zone:hover {
+  cursor: pointer;
+  cursor: hand;
+}
+
 @font-face {
   font-family: "ThryomanesNormal";
   src: url("/fonts/thryomanes.eot");

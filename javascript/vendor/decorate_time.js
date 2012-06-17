@@ -22,7 +22,7 @@
             currentHtml = element.html();
             newText = callback(dateTime);
             if (!this.alreadyReplaced(currentHtml, newText)) {
-              newHtml = currentHtml.replace(RegExp("" + dateTime.text, "g"), newText);
+              newHtml = currentHtml.replace(RegExp("" + dateTime.utc.text, "g"), newText);
               _results1.push(element.html(newHtml));
             } else {
               _results1.push(void 0);
@@ -58,39 +58,61 @@
       return _results;
     },
     buildDateTimeObject: function(dateTimeString) {
-      var date, end, endDate, month, split, start, startDate, text, year;
-      split = this.dateTimeRegExp().exec(dateTimeString);
-      text = split[0];
-      month = this.findMonth(split[2], split[3]);
-      date = this.findDate(split[2], split[3]);
-      year = this.findYear(split[0]);
-      start = this.findStartHour(split[4]);
-      end = this.findEndHour(split[4]);
-      startDate = new Date("" + month + " " + date + " " + year + " " + start + " UTC");
-      if (end) {
-        endDate = new Date("" + month + " " + date + " " + year + " " + end + " UTC");
-      } else {
-        endDate = '';
-      }
+      var localData, utcData;
+      utcData = this.extractUtcData(dateTimeString);
+      localData = this.convertToLocalData(utcData);
+      return {
+        utc: utcData,
+        local: localData
+      };
+    },
+    convertToLocalData: function(utcData) {
+      var date, day, end, endDate, month, offset, start, startDate, text, year;
+      startDate = this.initializeDate(utcData, utcData.start);
+      endDate = this.initializeDate(utcData, utcData.end);
+      month = this.monthsLong[startDate.getMonth()];
+      day = this.daysLong[startDate.getDay()];
+      date = startDate.getDate().toString();
+      year = startDate.getFullYear().toString();
+      start = this.timeStringFromDate(startDate);
+      end = this.timeStringFromDate(endDate);
+      offset = this.findLocalOffset();
+      text = utcData.text;
+      text = text.replace(utcData.day, day);
+      text = text.replace(utcData.date, date);
+      text = text.replace(utcData.month, month);
+      text = text.replace(utcData.start, start);
+      text = text.replace(utcData.end, end);
+      text = text.replace('UTC', offset);
       return {
         text: text,
-        startDate: startDate,
-        endDate: endDate,
-        utc: {
-          month: month,
-          date: date,
-          year: year,
-          start: start,
-          end: end
-        },
-        local: {
-          month: this.monthsLong[startDate.getMonth()],
-          date: startDate.getDate().toString(),
-          year: startDate.getFullYear().toString(),
-          start: this.timeStringFromDate(startDate),
-          end: this.timeStringFromDate(endDate),
-          offset: this.findLocalOffset()
-        }
+        month: month,
+        date: date,
+        year: year,
+        start: start,
+        end: end,
+        offset: offset
+      };
+    },
+    initializeDate: function(data, hour, timezone) {
+      if (timezone == null) {
+        timezone = 'UTC';
+      }
+      if (hour === null) {
+        return '';
+      }
+      return new Date("" + data.month + " " + data.date + " " + data.year + " " + hour + " " + timezone);
+    },
+    extractUtcData: function(dateTimeString) {
+      var split;
+      split = this.dateTimeRegExp().exec(dateTimeString);
+      return {
+        text: split[0],
+        month: this.findMonth(split[2], split[3]),
+        date: this.findDate(split[2], split[3]),
+        year: this.findYear(split[0]),
+        start: this.findStartHour(split[4]),
+        end: this.findEndHour(split[4])
       };
     },
     findLocalOffset: function() {
@@ -105,6 +127,9 @@
       }
       hour = date.getHours().toString();
       minutes = date.getMinutes().toString();
+      if (hour.length === 1) {
+        hour = "0" + hour;
+      }
       if (minutes.length === 1) {
         minutes = "0" + minutes;
       }
