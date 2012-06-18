@@ -336,10 +336,14 @@ ul.posts li a span.date {
   position: relative;
 }
 .date-time .time-zone {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
   border-radius: 3px;
   margin-left: 5px;
-  font-size: 0.5em;
-  background-color: #cccccc;
+  font-size: 0.75em;
+  background-color: rgba(200, 200, 200, 0.25);
   padding: 3px 5px 1px 5px;
   display: inline-block;
   vertical-align: middle;
