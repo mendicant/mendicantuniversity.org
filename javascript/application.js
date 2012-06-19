@@ -1,6 +1,7 @@
 $(function() {
   DecorateTime.eachIn($('p'), function(data) {
-    var localTet, utcText, dataLocal, dataUtc, dataOffset, openingTag, closingTag;
+    var localText, utcText, dataLocal, dataUtc, dataOffset, dataAttrs,
+		openingTag, contents, timeZoneTag, closingTag;
 
     localText = data.local.text.replace(/\s+UTC[\-+]\d+/, '')
     utcText   = data.utc.text.replace(/\s+UTC/, '')
@@ -12,31 +13,42 @@ $(function() {
 
     openingTag  = '<span class="date-time">';
     contents    = '<span class="text"' + dataAttrs + '>' + utcText + '</span>';
-    timezoneTag = '<span class="time-zone utc">UTC</span>';
+    timeZoneTag = '<span class="time-zone utc">UTC</span>';
     closingTag  = '</span>';
 
-    return openingTag + contents + timezoneTag + closingTag;
+    return openingTag + contents + timeZoneTag + closingTag;
   });
 
   $('.date-time .time-zone').on('click', function() {
-    var $text       = $(this).siblings('.text').first(),
-        $timeZone   = $(this),
-        utc         = $text.data('utc'),
-        local       = $text.data('local'),
-        localOffset = $text.data('offset');
+    var $clickedTimeZone = $(this),
+		$allTimeZones    = $('.time-zone');
 
-    if ($timeZone.hasClass('utc')) {
-      $timeZone.removeClass('utc');
-      $timeZone.addClass('local');
-
-      $text.html(local);
-      $timeZone.html(localOffset);
+    if ($clickedTimeZone.hasClass('utc')) {
+      $allTimeZones.trigger('local');
      } else {
-      $timeZone.removeClass('local');
-      $timeZone.addClass('utc');
-
-      $text.html(utc);
-      $timeZone.html('UTC');
+      $allTimeZones.trigger('utc');
      }
+  });
+
+  $('.date-time .time-zone').on('local', function() {
+    var $timeZone = $(this),
+        $text     = $(this).siblings('.text').first();
+
+	  $timeZone.removeClass('utc');
+	  $timeZone.addClass('local');
+
+	  $text.html($text.data('local'));
+	  $timeZone.html($text.data('offset'));
+  });
+
+  $('.date-time .time-zone').on('utc', function() {
+    var $timeZone = $(this),
+        $text     = $(this).siblings('.text').first();
+
+    $timeZone.removeClass('local');
+    $timeZone.addClass('utc');
+
+    $text.html($text.data('utc'));
+    $timeZone.html('UTC');
   });
 });

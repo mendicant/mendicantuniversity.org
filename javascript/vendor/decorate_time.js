@@ -7,6 +7,15 @@
     monthsShort: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
     daysLong: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
     daysShort: ['Mon', 'Tues', 'Weds', 'Thurs', 'Fri', 'Sat', 'Sun'],
+    dateTimeRegExp: function() {
+      var daysLong, daysShort, monthsLong, monthsShort, time;
+      monthsLong = this.monthsLong.join("|");
+      monthsShort = this.monthsShort.join("|");
+      daysLong = this.daysLong.join("|");
+      daysShort = this.daysShort.join("|");
+      time = "(\\d+:\\d+)";
+      return RegExp("(?:(?:(" + daysLong + "|" + daysShort + "),\\s+)?(" + monthsLong + "|" + monthsShort + "|\\d+)(?:[,\\s+])?(" + monthsLong + "|" + monthsShort + "|\\d+)(?:[^\\d]+))?(" + time + "(?:.*?)" + time + "?)\\s+(UTC)", "ig");
+    },
     eachIn: function(elements, callback) {
       var currentHtml, dateTime, dateTimes, element, newHtml, newText, _i, _len, _results;
       _results = [];
@@ -36,14 +45,6 @@
     alreadyReplaced: function(html, text) {
       return html.indexOf(text) > 0;
     },
-    dateTimeRegExp: function() {
-      var daysLong, daysShort, monthsLong, monthsShort;
-      monthsLong = this.monthsLong.join("|");
-      monthsShort = this.monthsShort.join("|");
-      daysLong = this.daysLong.join("|");
-      daysShort = this.daysShort.join("|");
-      return RegExp("(?:(" + daysLong + "|" + daysShort + "),\\s+)?(" + monthsLong + "|" + monthsShort + "|\\d+)[,\\s+](" + monthsLong + "|" + monthsShort + "|\\d+)(.*?)(UTC)", "ig");
-    },
     findDateTimeExpressions: function(text) {
       var match, matches, _i, _len, _results;
       matches = text.match(this.dateTimeRegExp());
@@ -66,6 +67,20 @@
         local: localData
       };
     },
+    extractUtcData: function(dateTimeString) {
+      var data, split;
+      split = this.dateTimeRegExp().exec(dateTimeString);
+      console.log(split);
+      data = {
+        text: dateTimeString,
+        month: this.findMonth(split[2], split[3]),
+        date: this.findDate(split[2], split[3]),
+        year: this.findYear(split[0]),
+        start: this.findStartHour(split[4]),
+        end: this.findEndHour(split[4])
+      };
+      return this.sanitizeData(data);
+    },
     convertToLocalData: function(utcData) {
       var date, day, end, endDate, month, offset, start, startDate, text, year;
       startDate = this.initializeDate(utcData, utcData.start);
@@ -77,13 +92,7 @@
       start = this.timeStringFromDate(startDate);
       end = this.timeStringFromDate(endDate);
       offset = this.findLocalOffset();
-      text = utcData.text;
-      text = text.replace(utcData.day, day);
-      text = text.replace(utcData.date, date);
-      text = text.replace(utcData.month, month);
-      text = text.replace(utcData.start, start);
-      text = text.replace(utcData.end, end);
-      text = text.replace('UTC', offset);
+      text = utcData.text.replace(utcData.day, day).replace(utcData.date, date).replace(utcData.month, month).replace(utcData.start, start).replace(utcData.end, end).replace('UTC', offset);
       return {
         text: text,
         month: month,
@@ -94,6 +103,14 @@
         offset: offset
       };
     },
+    sanitizeData: function(data) {
+      if (data.month === void 0) {
+        data.month = this.monthsLong[this.currentMonth()];
+        data.date = this.currentDate();
+        data.year = this.currentYear();
+      }
+      return data;
+    },
     initializeDate: function(data, hour, timezone) {
       if (timezone == null) {
         timezone = 'UTC';
@@ -102,18 +119,6 @@
         return '';
       }
       return new Date("" + data.month + " " + data.date + " " + data.year + " " + hour + " " + timezone);
-    },
-    extractUtcData: function(dateTimeString) {
-      var split;
-      split = this.dateTimeRegExp().exec(dateTimeString);
-      return {
-        text: split[0],
-        month: this.findMonth(split[2], split[3]),
-        date: this.findDate(split[2], split[3]),
-        year: this.findYear(split[0]),
-        start: this.findStartHour(split[4]),
-        end: this.findEndHour(split[4])
-      };
     },
     findLocalOffset: function() {
       var offset;
@@ -144,6 +149,12 @@
     },
     findDate: function(possibleSource, otherPossibleSource) {
       var matches;
+      if (possibleSource == null) {
+        possibleSource = '';
+      }
+      if (otherPossibleSource == null) {
+        otherPossibleSource = '';
+      }
       matches = possibleSource.match(/\d+/);
       if (matches) {
         return possibleSource;
@@ -168,6 +179,12 @@
     },
     currentYear: function() {
       return (new Date).getFullYear().toString();
+    },
+    currentMonth: function() {
+      return (new Date).getMonth().toString();
+    },
+    currentDate: function() {
+      return (new Date).getDate().toString();
     }
   };
 
