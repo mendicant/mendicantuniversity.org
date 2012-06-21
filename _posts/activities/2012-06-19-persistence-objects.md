@@ -2,7 +2,6 @@
 title: "Persistence Objects vs Domain Logic"
 category: activities
 layout: post
-tags: frontpage
 ---
 
 We were discussing the difference between an object that persists to database and an object that implements business behavior in our IRC channel, and the conversation was so interesting that we decided to turn it into a full-blown group study session. We were reminded of a screencast that Gary Bernhardt recorded for his Destroy All Software series and we decided to invite him to discuss the topic with us.
