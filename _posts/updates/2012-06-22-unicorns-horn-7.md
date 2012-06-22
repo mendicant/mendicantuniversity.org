@@ -21,6 +21,8 @@ tags: frontpage
 
 #### Upcoming Plans:
 
-We don't have any scheduled events for next week just yet, as we're catching up from a very busy couple of weeks. However, there will almost certainly be office hours within the next few days, and you can expect to see our first weekend hack day soon.
+* Eric Gjertsen is [hosting office hours](http://mendicantuniversity.org/activities/2012/06/28/office-hours-with-eric_gjertsen.html) on Thursday, June 28. If you have Ruby questions or want a code review, be sure to stop by.
+
+We don't have any other scheduled events for next week just yet, as we're catching up from a very busy couple of weeks. However, you can expect to see more soon, including our first weekend hack day.
 
 Want to help us out? Consider running office hours or a study session yourself! [Learn more here](https://github.com/mendicant/mendicantuniversity.org/wiki/How-to-post-an-activity-to-mendicantuniversity.org), and feel free to post questions in the [Meta-discussions topic](http://forum.mendicantuniversity.org/categories/meta-discussions) on our forum.
