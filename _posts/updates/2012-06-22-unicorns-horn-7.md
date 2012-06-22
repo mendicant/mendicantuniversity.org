@@ -9,7 +9,7 @@ tags: frontpage
 
 #### What happened this week:
 
-* Eric Gjersten ran office hours, which resulted in some [interesting discussions about testing strategies](http://anita.mendicantuniversity.org/mendicant/2012-06-18..2012-06-18%2018:59%20UTC).
+* Eric Gjersten ran office hours, which lead to an [interesting discussion about testing strategies](http://anita.mendicantuniversity.org/mendicant/2012-06-18..2012-06-18%2018:59%20UTC).
 
 * Sean Marcia ran a session called [Share your favourite gem](http://mendicantuniversity.org/activities/2012/06/19/share-your-favourite-gem.html), inviting everyone to recommend the gems that they have found especially useful or interesting. Afterwards, Sean compiled the [list of gems](https://github.com/mendicant/mendicantuniversity.org/wiki/Share-your-favourite-gem-%282012-06-19%29) that participants had suggested.
 
