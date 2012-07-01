@@ -319,6 +319,18 @@ ul.posts {
   margin: 0;
   padding: 0;
 }
+ul.posts li.empty {
+  font-size: 0.9em;
+  font-style: italic;
+}
+ul.posts li.empty a {
+  font-size: inherit;
+  display: inline;
+  padding: inherit;
+  border-bottom: none;
+  text-decoration: underline;
+  margin-bottom: inherit;
+}
 ul.posts li a {
   font-size: 0.85em;
   display: block;

@@ -44,28 +44,25 @@ header:
         <a href="/activities.html" class="all">View All</a>
       </h2>
       <ul class="posts">
-        <!-- all just to assign has_activity_post variable -->
+        {% assign has_activity_posts = false %}
         {% for activity in site.tags.frontpage reversed%}
           {% if activity.category == 'activities' %}
-            {% assign has_activity_posts = true %}
-          {% else %}
-            {% assign has_activity_posts = false %}
-          {% endif %}
-        {% endfor %}
-
-        {% if has_activity_posts %}
-          {% for activity in site.tags.frontpage reversed%}
-            {% if activity.category == 'activities' %}
             <li>
               <a href="{{activity.url}}">
                 {{ activity.title }}
                 <span class="date">{{activity.date | date: "%Y %B %d"}}</span>
               </a>
             </li>
-            {% endif %}
-          {% endfor %}
-        {% else %}
-          Sorry, no upcoming activities
+            {% assign has_activity_posts = true %}
+          {% endif %}
+        {% endfor %}
+        {% if has_activity_posts == false %}
+          <li class="empty">
+            Right now we don't have any scheduled activities. <br/>
+            Check our <a href="/index.xml">RSS</a>,
+            <a href="https://twitter.com/#!/mendicant_news">twitter</a>, and
+            <a href="http://lists.mendicantuniversity.org/listinfo.cgi/community-mendicantuniversity.org">mailing list</a> for updates.
+          </li>
         {% endif %}
       </ul>
     </div>

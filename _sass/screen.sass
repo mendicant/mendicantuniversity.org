@@ -72,15 +72,26 @@ ul.posts
   list-style-type: none
   margin: 0
   padding: 0
-  li a
-    font-size: 0.85em
-    display: block
-    padding: 0.25em 0
-    border-bottom: 1px solid #ccc
-    text-decoration: none
-    margin-bottom: 0.5em
-    span.date
-      float: right
+  li
+    &.empty
+      font-size: 0.9em
+      font-style: italic
+      a
+        font-size: inherit
+        display: inline
+        padding: inherit
+        border-bottom: none
+        text-decoration: underline
+        margin-bottom: inherit
+    a
+      font-size: 0.85em
+      display: block
+      padding: 0.25em 0
+      border-bottom: 1px solid #ccc
+      text-decoration: none
+      margin-bottom: 0.5em
+      span.date
+        float: right
 
 .date-time
   display: inline-block
