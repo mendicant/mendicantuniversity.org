@@ -25,12 +25,12 @@ header:
         <a href="/updates.html" class="all">View All</a>
       </h2>
       <ul class="posts">
-        {% for update in site.tags.frontpage %}
-          {% if update.category == 'updates' %}
+        {% for post in site.tags.frontpage %}
+          {% if post.category == 'updates' %}
           <li>
-            <a href="{{update.url}}">
-              {{ update.title }}
-              <span class="date">{{update.date | date: "%Y %B %d"}}</span>
+            <a href="{{post.url}}">
+              {{ post.title }}
+              <span class="date">{{post.date | date: "%Y %B %d"}}</span>
             </a>
           </li>
           {% endif %}
@@ -45,12 +45,12 @@ header:
       </h2>
       <ul class="posts">
         {% assign has_activity_posts = false %}
-        {% for activity in site.tags.frontpage reversed%}
-          {% if activity.category == 'activities' %}
+        {% for post in site.tags.frontpage reversed%}
+          {% if post.category == 'activities' %}
             <li>
-              <a href="{{activity.url}}">
-                {{ activity.title }}
-                <span class="date">{{activity.date | date: "%Y %B %d"}}</span>
+              <a href="{{post.url}}">
+                {{ post.title }}
+                <span class="date">{{post.date | date: "%Y %B %d"}}</span>
               </a>
             </li>
             {% assign has_activity_posts = true %}
