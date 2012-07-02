@@ -11,6 +11,8 @@ header:
   <a class="banner" href="/">Mendicant University</a>
 </header>
 
+{% include dan.test %}
+
 <div id="landing">
   <div id="intro">
     We are a group of software developers who use our technical skills to make a
@@ -27,12 +29,7 @@ header:
       <ul class="posts">
         {% for post in site.tags.frontpage %}
           {% if post.category == 'updates' %}
-          <li>
-            <a href="{{post.url}}">
-              {{ post.title }}
-              <span class="date">{{post.date | date: "%Y %B %d"}}</span>
-            </a>
-          </li>
+            {% include posts.html %}
           {% endif %}
         {% endfor %}
       </ul>
@@ -47,12 +44,7 @@ header:
         {% assign has_activity_posts = false %}
         {% for post in site.tags.frontpage reversed%}
           {% if post.category == 'activities' %}
-            <li>
-              <a href="{{post.url}}">
-                {{ post.title }}
-                <span class="date">{{post.date | date: "%Y %B %d"}}</span>
-              </a>
-            </li>
+            {% include posts.html %}
             {% assign has_activity_posts = true %}
           {% endif %}
         {% endfor %}
