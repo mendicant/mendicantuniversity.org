@@ -29,7 +29,7 @@ header:
       <ul class="posts">
         {% for post in site.tags.frontpage %}
           {% if post.category == 'updates' %}
-            {% include posts.html %}
+            {% include post.html %}
           {% endif %}
         {% endfor %}
       </ul>
@@ -44,7 +44,7 @@ header:
         {% assign has_activity_posts = false %}
         {% for post in site.tags.frontpage reversed%}
           {% if post.category == 'activities' %}
-            {% include posts.html %}
+            {% include post.html %}
             {% assign has_activity_posts = true %}
           {% endif %}
         {% endfor %}

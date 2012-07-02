@@ -8,12 +8,7 @@ header:
 ---
 
 <ul class="posts">
-{% for activity in site.categories.activities %}
-  <li>
-    <a href="{{activity.url}}">
-      {{ activity.title }}
-      <span class="date">{{activity.date | date: "%Y %B %d"}}</span>
-    </a>
-  </li>
+{% for post in site.categories.activities %}
+  {% include post.html %}
 {% endfor %}
 </ul>

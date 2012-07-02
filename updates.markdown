@@ -8,12 +8,7 @@ header:
 ---
 
 <ul class="posts">
-{% for update in site.categories.updates %}
-  <li>
-    <a href="{{update.url}}">
-      {{ update.title }}
-      <span class="date">{{update.date | date: "%Y %B %d"}}</span>
-    </a>
-  </li>
+{% for post in site.categories.updates %}
+  {% include post.html %}
 {% endfor %}
 </ul>
