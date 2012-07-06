@@ -2,7 +2,6 @@
 title: "Open Source Software Clinic Survey"
 category: updates
 layout: post
-tags: frontpage
 ---
 
 We'd like to gauge interest in future OSS Clinics. If you have time, please
