@@ -5,7 +5,7 @@ layout: post
 tags: frontpage
 ---
 
-Gregory Brown started Mendicant University over two years ago. Since then he has been the driving force behind Mendicant. His relentless focus and dedication helped us to grow into an extraordinary community. But Greg is only human; fatherhood and a [growing business](http://practicingruby.com/) have stretched him thin. So, instead of burning out, Greg came to the hard decision to [step down](http://forum.mendicantuniversity.org/discussion/32/changing-my-role-in-mendicant) from his role in the Mendicant Community.
+Gregory Brown started Mendicant University over two years ago. Since then he has been the driving force behind Mendicant. His relentless focus and dedication helped us to grow into an extraordinary community. But Greg is only human; fatherhood and a [growing business](http://practicingruby.com/) have stretched him thin. So, instead of burning out, Greg came to the hard decision to [step down](http://forum.mendicantuniversity.org/discussion/32/changing-my-role-in-mendicant) from his leadership role in the Mendicant Community.
 
 Not wanting Mendicant's current momentum to flounder, a number of community members and Homesteaders met via Skype to discuss how to keep mendicant moving forward. In an effort to focus, the meeting centered around the question of "how".
 
