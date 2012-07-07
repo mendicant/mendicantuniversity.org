@@ -24,4 +24,4 @@ This meeting was a great success and will help to propel us forward. But there i
 
 Mendicant is moving into exciting new territories. I hope everyones as excited as we, the Homesteaders, are.
 
-_ For those interested, you can find our meeting notes [here](http://practicingruby.com:9001/p/mendicant-skype).
+_For those interested, you can find our meeting notes [here](http://practicingruby.com:9001/p/mendicant-skype)._
