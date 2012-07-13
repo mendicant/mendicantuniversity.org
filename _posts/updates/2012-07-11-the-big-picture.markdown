@@ -20,7 +20,7 @@ school had lost its direction without Gregory at the helm:
 
 Shane was in agreement with both Jordan and Eric:
 
-> Having Mendicant out in the open is great, but now that all of our activities are low commitment, does that also mean that they are no commitment? The OSS clinic for Anita had very low participation, and engaging new people is very difficult.
+> Having Mendicant out in the open is great, but now that all of our activities are low commitment, does that also make it harder to get any kind of commitment from people? The OSS clinic for Anita had very low participation, and engaging new people is very difficult.
 
 Piotr then began to ponder how Mendicant could become more appealing to gain critical mass.
 
