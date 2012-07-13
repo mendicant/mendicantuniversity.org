@@ -5,7 +5,7 @@ layout: post
 tags: frontpage
 ---
 
-Gregory Brown recently stepped down from his leadership role within Mendicant University so that he could focus on [growing his business](http://practicingruby.com) and spending time with his [baby boy](http://farm9.staticflickr.com/8014/7550866270_4d9a358395_z.jpg). Since then, we have been transforming Mendicant University into a group-run program, lead by our homesteaders. 
+Gregory Brown recently stepped down from his leadership role within Mendicant University so that he could focus on [growing his business](http://practicingruby.com) and spending time with his [baby boy](http://farm9.staticflickr.com/8014/7550866270_4d9a358395_z.jpg). Since then, we have been transforming Mendicant University into a group-run program, lead by our homesteaders.
 
 Last week, the homesteading crew gathered together to [discuss how the school will move forward](/updates/2012/07/06/moving-forward.html). Most of the nitty gritty details of running the school were nailed down, but the homesteaders didn't have time to discuss the future of Mendicant University. With that in mind, we decided to meet again this week to work on those details.
 
@@ -39,4 +39,4 @@ In short, the idea is to run an activity which spans 2 to 3 weeks where Mendican
 
 With time running short, the group decided to hold off on discussing that project any further, but not before Jordan proposed bringing back [Community](https://github.com/mendicant-original/community#readme). He thinks that the activity section of community could potentially solve many of the commitment and participation issues discussed. Plus he is also starting to get frustrated with Mendicant's existing [Jekyll based site](https://github.com/mendicant/mendicantuniversity.org).
 
-Now it's your turn. The homesteaders want to know if any of these ideas resonate with you, and what you think is the best plan for Mendicant. Please take some time and share your thoughts on our [community mailing list](http://lists.mendicantuniversity.org/listinfo.cgi/community-mendicantuniversity.org). <img src="http://community.mendicantuniversity.org/assets/emojis/heart.png" class="emoji" title=":heart:" alt=":heart:" height="20" width="20">.
+Now it's your turn. The homesteaders want to know if any of these ideas resonate with you, and what you think is the best plan for Mendicant. Please take some time and share your thoughts on our [community mailing list](http://lists.mendicantuniversity.org/listinfo.cgi/community-mendicantuniversity.org). <img src="http://community.mendicantuniversity.org/assets/emojis/heart.png" class="emoji" title=":heart:" alt=":heart:" height="20" width="20">
