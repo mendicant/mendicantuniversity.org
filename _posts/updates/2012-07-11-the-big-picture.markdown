@@ -14,17 +14,17 @@ The discussion started off with each participant discussing what they think is w
 > Our core is strong, but the excitement has died down a little since Greg left. So how can we generate interest? What is the bigger aim of Mendicant? Are we teaching? Building a community? What exactly is the focus?
 
 Jordan responded to these questions by confirming his own feelings that the
-school had lost its direction without Gregory at the helm.
+school had lost its direction without Gregory at the helm:
 
 > Right now no one is looking at the big picture and, for the most part, Mendicant does not have a clear direction. In some ways, the school is going through an identity crisis.
 
 Shane was in agreement with both Jordan and Eric:
 
-> Having Mendicant out in the open is great, but now that all of our activities are low committment, does that also mean that they are no committment? The OSS clinic for Anita had very low participation, and engaging new people is very difficult.
+> Having Mendicant out in the open is great, but now that all of our activities are low commitment, does that also mean that they are no commitment? The OSS clinic for Anita had very low participation, and engaging new people is very difficult.
 
 Piotr then began to ponder how Mendicant could become more appealing to gain critical mass.
 
-> Mendicant lost part of its appeal when it changed directions. The core course was about building small projects which were easy to start up and didn't require a massive learning curve.  Right now Mendicnat lacks an easy path to engage people where they can quickly learn if they're interested or not.
+> Mendicant lost part of its appeal when it changed directions. The core course was about building small projects which were easy to start up and didn't require a massive learning curve.  Right now Mendicant lacks an easy path to engage people where they can quickly learn if they're interested or not.
 
 This lead the team to begin generating ideas which could help get Mendicant back on track.
 
