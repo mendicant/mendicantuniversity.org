@@ -2,7 +2,6 @@
 title: Office Hours with Jordan Byron
 category: activities
 layout: post
-tags: frontpage
 ---
 
 Come one come all on a rip roaring good time with me, your gracious host, [Jordan Byron](https://github.com/mendicant/mendicantuniversity.org/wiki/Jordan-Byron), as we dive deep into all your frontend web development questions. When does this fantastic voyage cast off you ask? We ride Wednesday, July 11 between 17:00 and 21:00 UTC.
