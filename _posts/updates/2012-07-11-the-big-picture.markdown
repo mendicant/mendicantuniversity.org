@@ -7,7 +7,7 @@ tags: frontpage
 
 Last week, Mendicant's Homesteading crew gathered together to [discuss how the school will move forward](/updates/2012/07/06/moving-forward.html) now that its founder, [Gregory Brown](http://twitter.com/practicingruby), has stepped down to take some much needed time off to grow [his business](http://practicingruby.com) and spend time with his [newborn son](http://i.imgur.com/pKcgD.jpg). Most of the nitty gritty details of running the school were nailed down, but the homesteaders didn't have time to discuss the future of Mendicant University. Another meeting was in order, this time to focus on the big picture.
 
-This update will summarize each participant's thoughts and outline a few of the bigger projects discussed during that meeting. The discussion started off with each participant discussing what they think is working well with the new Mendicant University.
+This update will summarize each participant's thought and outline a few of the bigger projects discussed during that meeting. The discussion started off with each participant discussing what they think is working well with the new Mendicant University.
 
 Eric was brave enough to go first, and thinks that overall the school is active given the limited amount of time community members have.
 
