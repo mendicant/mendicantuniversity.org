@@ -22,7 +22,7 @@ Shane was in agreement with both Jordan and Eric:
 
 > Having Mendicant out in the open is great, but now that all of our activities are low commitment, does that also make it harder to get any kind of commitment from people? The OSS clinic for Anita had very low participation, and engaging new people is very difficult.
 
-Piotr then began to ponder how Mendicant could become more appealing to gain critical mass.
+Piotr then began to ponder how Mendicant could become more appealing to gain critical mass:
 
 > Mendicant lost part of its appeal when it changed directions. The core course was about building small projects which were easy to start up and didn't require a massive learning curve.  Right now Mendicant lacks an easy path to engage people where they can quickly learn if they're interested or not.
 
@@ -39,6 +39,4 @@ In short, the idea is to run an activity which spans 2 to 3 weeks where Mendican
 
 With time running short, the group decided to hold off on discussing that project any further, but not before Jordan proposed bringing back [Community](https://github.com/mendicant-original/community#readme). He thinks that the activity section of community could potentially solve many of the commitment and participation issues discussed. Plus he is also starting to get frustrated with Mendicant's existing [Jekyll based site](https://github.com/mendicant/mendicantuniversity.org).
 
-Now it's your turn. The homesteaders want to know if any of these ideas resonate with you, and what you think is the best plan for Mendicant. Please take some time and share your thoughts on our [community mailing list](http://lists.mendicantuniversity.org/listinfo.cgi/community-mendicantuniversity.org). <img src="http://community.mendicantuniversity.org/assets/emojis/heart.png" class="emoji" title=":heart:" alt=":heart:" height="20" width="20">
-
-Lastly, our raw [meeting notes](http://practicingruby.com:9001/p/mendicant-skype-2) are available for those interested.
+Now it's your turn. The homesteaders want to know if any of these ideas resonate with you, and what you think is the best plan for Mendicant. Please take some time and share your thoughts on our [community mailing list](http://lists.mendicantuniversity.org/listinfo.cgi/community-mendicantuniversity.org). <img src="http://community.mendicantuniversity.org/assets/emojis/heart.png" class="emoji" title=":heart:" alt=":heart:" height="20" width="20">.
