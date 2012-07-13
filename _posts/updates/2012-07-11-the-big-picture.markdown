@@ -5,7 +5,7 @@ layout: post
 tags: frontpage
 ---
 
-A few weeks ago, Gregory Brown stepped down from his leadership role within Mendicant University so that he could focus on [growing his business](http://practicingruby.com) and spending time with his [baby boy](http://farm9.staticflickr.com/8014/7550866270_4d9a358395_z.jpg). Since then, we have been transforming Mendicant University into a group-run program, lead by our homesteaders. 
+Gregory Brown recently stepped down from his leadership role within Mendicant University so that he could focus on [growing his business](http://practicingruby.com) and spending time with his [baby boy](http://farm9.staticflickr.com/8014/7550866270_4d9a358395_z.jpg). Since then, we have been transforming Mendicant University into a group-run program, lead by our homesteaders. 
 
 Last week, the homesteading crew gathered together to [discuss how the school will move forward](/updates/2012/07/06/moving-forward.html). Most of the nitty gritty details of running the school were nailed down, but the homesteaders didn't have time to discuss the future of Mendicant University. With that in mind, we decided to meet again this week to work on those details.
 
