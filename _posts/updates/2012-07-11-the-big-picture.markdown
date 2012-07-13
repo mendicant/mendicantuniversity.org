@@ -9,11 +9,12 @@ Gregory Brown recently stepped down from his leadership role within Mendicant Un
 
 Last week, the homesteading crew gathered together to [discuss how the school will move forward](/updates/2012/07/06/moving-forward.html). Most of the nitty gritty details of running the school were nailed down, but the homesteaders didn't have time to discuss the future of Mendicant University. With that in mind, we decided to meet again this week to work on those details.
 
-The discussion started off with each participant discussing what they think is working well with the new Mendicant University. Eric was brave enough to go first, and thinks that overall the school is active given the limited amount of time community members have.
+The discussion started off with each participant discussing what they think is working well with the new Mendicant University. Eric was brave enough to go first, and expressed that overall the school is active given the limited amount of time that our community members have. Still, some important questions needed answering:
 
-> Our core is strong, but the excitment has died down a little since Greg left. So how can we generate interest? What is the bigger aim of Mendicant? Are we teaching? Building a community? What exactly is the focus?
+> Our core is strong, but the excitement has died down a little since Greg left. So how can we generate interest? What is the bigger aim of Mendicant? Are we teaching? Building a community? What exactly is the focus?
 
-This was a great segway for Jordan as he too feels that Mendicant has lost direction without Gregory at the helm.
+Jordan responded to these questions by confirming his own feelings that the
+school had lost its direction without Gregory at the helm.
 
 > Right now no one is looking at the big picture and, for the most part, Mendicant does not have a clear direction. In some ways, the school is going through an identity crisis.
 
