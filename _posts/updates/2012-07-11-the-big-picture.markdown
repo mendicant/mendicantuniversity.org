@@ -5,11 +5,11 @@ layout: post
 tags: frontpage
 ---
 
-Last week, Mendicant's Homesteading crew gathered together to [discuss how the school will move forward](/updates/2012/07/06/moving-forward.html) now that its founder, [Gregory Brown](http://twitter.com/practicingruby), has stepped down to take some much needed time off to grow [his business](http://practicingruby.com) and spend time with his [newborn son](http://i.imgur.com/pKcgD.jpg). Most of the nitty gritty details of running the school were nailed down, but the homesteaders didn't have time to discuss the future of Mendicant University. Another meeting was in order, this time to focus on the big picture.
+A few weeks ago, Gregory Brown stepped down from his leadership role within the Mendicant University community so that he could focus on [growing his business](http://practicingruby.com) and spending time with his [baby boy](http://farm9.staticflickr.com/8014/7550866270_4d9a358395_z.jpg). Since then, we have been gradually transforming Mendicant University into a group-run program, lead by our homesteaders. 
 
-This update will summarize each participant's thought and outline a few of the bigger projects discussed during that meeting. The discussion started off with each participant discussing what they think is working well with the new Mendicant University.
+Last week, the homesteading crew gathered together to [discuss how the school will move forward](/updates/2012/07/06/moving-forward.html). Most of the nitty gritty details of running the school were nailed down, but the homesteaders didn't have time to discuss the future of Mendicant University. With that in mind, we decided to meet again this week to work on those details.
 
-Eric was brave enough to go first, and thinks that overall the school is active given the limited amount of time community members have.
+The discussion started off with each participant discussing what they think is working well with the new Mendicant University. Eric was brave enough to go first, and thinks that overall the school is active given the limited amount of time community members have.
 
 > Our core is strong, but the excitment has died down a little since Greg left. So how can we generate interest? What is the bigger aim of Mendicant? Are we teaching? Building a community? What exactly is the focus?
 
