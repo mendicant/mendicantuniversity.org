@@ -2,7 +2,6 @@
 title: "The Unicorn's Horn, Issue #9"
 category: updates
 layout: post
-tags: frontpage
 ---
 
 _This week's Unicorn's Horn comes to you from a McDonald's, [deep in the mountains of Virginia](https://maps.google.com/maps?ie=UTF8&cid=11116311971813138899&q=Mc+Donald's&gl=US&hl=en&t=h&z=16&vpsrc=0&iwloc=A)._
