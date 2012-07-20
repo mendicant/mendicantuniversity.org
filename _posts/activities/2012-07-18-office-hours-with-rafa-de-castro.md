@@ -2,7 +2,6 @@
 title: Office Hours with Rafa de Castro
 category: activities
 layout: post
-tags: frontpage
 ---
 
 Hi unicorns!
