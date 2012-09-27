@@ -1,5 +1,5 @@
 ---
-title: Hacking on MSM
+title: Hacking on Main Street Mission
 category: activities
 layout: post
 tags: frontpage
