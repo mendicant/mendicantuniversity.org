@@ -5,7 +5,7 @@ layout: post
 tags: frontpage
 ---
 
-On Thursday November 29, Gregory Brown will be hosting an an 
+On Thursday November 29, [Gregory Brown][gregory] will be hosting an an 
 email-based [Clojure][clojure] study day. Throughout the day, all who are interested 
 in studying Clojure or helping others learn it are welcome to post messages to 
 the [MU community mailing list][list] with the subject tag "Clojure Day".
@@ -21,6 +21,7 @@ list.
 
 Hope to see you participate, and happy hacking!
 
+[gregory]:  http://twitter.com/practicingruby
 [clojure]:  http://clojure.org/
 [list]:     http://lists.mendicantuniversity.org/listinfo.cgi/community-mendicantuniversity.org
 [archives]: http://lists.mendicantuniversity.org/pipermail/community-mendicantuniversity.org/Week-of-Mon-20121112/thread.html
