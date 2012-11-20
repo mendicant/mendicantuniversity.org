@@ -10,7 +10,7 @@ email-based [Clojure][clojure] study day. Throughout the day, all who are intere
 in studying Clojure or helping others learn it are welcome to post messages to 
 the [MU community mailing list][list] with the subject tag "Clojure Day".
 
-There has already been [some discussion][archives] on what people plan to share,
+There has already been [some discussion][archives] on what folks plan to share,
 but any contribution is welcome! If you've read a great tutorial, it can be as
 easy as sending us a link with a short description of why you liked it. Code
 reviews are also encouraged: just post a gist for us to look at.
