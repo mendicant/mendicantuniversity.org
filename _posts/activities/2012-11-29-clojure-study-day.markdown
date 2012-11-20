@@ -15,8 +15,8 @@ but any contribution is welcome! If you've read a great tutorial, it can be as
 easy as sending us a link with a short description of why you liked it. Code
 reviews are also encouraged: just post a gist for us to look at.
 
-Note that most of us are Clojure newbies, but that experienced people are more
-than welcome to come help out as well.
+Most of us are Clojure newbies, but we welcome people of all skill
+levels.
 
 If you have aquestions about this event, please ask them on the mailing
 list. Hope to see you participate!
