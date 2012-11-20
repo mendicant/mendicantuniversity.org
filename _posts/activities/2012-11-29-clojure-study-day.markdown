@@ -18,7 +18,7 @@ reviews are also encouraged: just post a gist for us to look at.
 Note that most of us are Clojure newbies, but that experienced people are more
 than welcome to come help out as well.
 
-If you have any questions about this event, feel free to ask them on the mailing
+If you have aquestions about this event, please ask them on the mailing
 list. Hope to see you participate!
 
 [clojure]:  http://clojure.org/
