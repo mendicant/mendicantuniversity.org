@@ -16,10 +16,10 @@ easy as sending us a link with a short description of why you liked it. Code
 reviews are also encouraged: just post a gist for us to look at.
 
 Most of us are Clojure newbies, but we welcome people of all skill
-levels.
+levels.If you have questions about this event, please ask them on the mailing
+list. 
 
-If you have aquestions about this event, please ask them on the mailing
-list. Hope to see you participate!
+Hope to see you participate, and happy hacking!
 
 [clojure]:  http://clojure.org/
 [list]:     http://lists.mendicantuniversity.org/listinfo.cgi/community-mendicantuniversity.org
