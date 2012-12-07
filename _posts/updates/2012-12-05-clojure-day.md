@@ -12,9 +12,8 @@ Gregory kicked things off around midnight on the 18th and a number of participan
 Gregory went back to Puzzle Node #4 [Robots v Lasers] (http://puzzlenode.com/puzzles/4-robots-vs-lasers) and tried to port a solution from Ruby to Clojure:
 
 So far, I've translated my parser class. Here's what I came up with:
-<pre><code>
-------------------------------------------------------
 
+```clojure
 (def conveyor-symbols { \# :wall \| :laser })
 (def robot-symbol "X")
 
@@ -27,13 +26,11 @@ So far, I've translated my parser class. Here's what I came up with:
       :robot_position (.indexOf middle robot-symbol)}))
 
 (pr (conveyor-data "#|#|#|##\n---X----\n###||###"))
-
-------------------------------------------------------
+```
 
 The original Ruby code looked like this:
 
-------------------------------------------------------
-
+```ruby
 module Robotic
   class Parser
     CONVEYOR_SYMBOLS = { "#" => :wall, "|" => :laser }
@@ -59,10 +56,9 @@ module Robotic
     end
   end
 end
+```
 
-------------------------------------------------------
-</code></pre>
-He hadn’t completed it but he stated how impressed he was that it was fairly easy
+Greg hadn’t completed it but he stated how impressed he was that it was fairly easy
 
 Shane Emmons revisited a Sinatra project using Noir [emmons.io] (https://github.com/semmons99/emmons.io) and pointed out some views where he had done some work with [Hiccup] (https://github.com/weavejester/hiccup), a Clojure based templating language: Shane, along with some others, looked at [4clojure] (http://www.4clojure.com/) a Clojure problem site sort of like Puzzlenode or Ruby Koans. 
 
