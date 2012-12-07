@@ -64,9 +64,8 @@ end
 </code></pre>
 He hadn’t completed it but he stated how impressed he was that it was fairly easy
 
-Shane Emmons revisited a Noir project  [emmons.io] (https://github.com/semmons99/emmons.io) he had started a couple of years ago and pointed out some views where he had done some work with [Hiccup] (https://github.com/weavejester/hiccup), a Clojure based templating language:
+Shane Emmons revisited a Sinatra project using Noir [emmons.io] (https://github.com/semmons99/emmons.io) and pointed out some views where he had done some work with [Hiccup] (https://github.com/weavejester/hiccup), a Clojure based templating language: Shane, along with some others, looked at [4clojure] (http://www.4clojure.com/) a Clojure problem site sort of like Puzzlenode or Ruby Koans. 
 
-Shane along with some others looked at [4clojure] (http://www.4clojure.com/) a Clojure problem site sort of like Puzzlenode or Ruby Koans. 
 Carol Nichols mentioned a talk by Stuart Holloway on the [impedence mismatch] (http://www.infoq.com/presentations/Impedance-Mismatch) between objects and relational databases lead to a discussion about [Datomic] (http://www.datomic.com/) but no one had much experience with it. Finally there was a general discussion about functional v object oriented programming.  We ended with a video of live programming using Clojure, Emacs and Supercollider in [Overtone] (http://vimeo.com/22798433)
 
 It was an interesting experience. It sounds like most of the participants intend to explore Clojure further but not formal plans were made.
