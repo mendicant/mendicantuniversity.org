@@ -2,7 +2,6 @@
 title: The Big Picture
 category: updates
 layout: post
-tags: frontpage
 ---
 
 Gregory Brown recently stepped down from his leadership role within Mendicant University so that he could focus on [growing his business](http://practicingruby.com) and spending time with his [baby boy](http://farm9.staticflickr.com/8014/7550866270_4d9a358395_z.jpg). Since then, we have been transforming Mendicant University into a group-run program, lead by our homesteaders.
