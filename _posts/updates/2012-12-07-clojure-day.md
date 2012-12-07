@@ -13,6 +13,8 @@ Gregory went back to Puzzle Node #4 [Robots v Lasers] (http://puzzlenode.com/puz
 
 So far, I've translated my parser class. Here's what I came up with:
 
+-----
+
     (def conveyor-symbols { \# :wall \| :laser })
     (def robot-symbol "X")
     
@@ -26,7 +28,11 @@ So far, I've translated my parser class. Here's what I came up with:
     
     (pr (conveyor-data "#|#|#|##\n---X----\n###||###"))
 
+-----
+
 The original Ruby code looked like this:
+
+-----
 
     module Robotic
       class Parser
@@ -53,6 +59,8 @@ The original Ruby code looked like this:
         end
       end
     end
+
+-----
 
 Greg hadn’t completed it but he stated how impressed he was that it was fairly easy
 
