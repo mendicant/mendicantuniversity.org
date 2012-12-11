@@ -9,7 +9,7 @@ On Friday, December 14, [Gregory Brown][gregory] will be offering up one of his
 Rails projects for heckling and suggestions for improvement. The goal of this
 study session is to allow intermediate and advanced Rails programmers to *learn
 by teaching* best practices and conventions. The application itself is simple, 
-and Gregory does not have much web development experience. So even advanced 
+and Gregory does not have much web development experience -- so even advanced 
 beginners should be able to help contribute some suggestions!
 
 To participate, join the [MU community mailing list][list] if you haven't
