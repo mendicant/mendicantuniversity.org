@@ -2,7 +2,6 @@
 title: Clojure Study Day
 category: activities
 layout: post
-tags: frontpage
 ---
 
 On Thursday November 29, [Gregory Brown][gregory] will be hosting an an 
