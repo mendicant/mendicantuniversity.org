@@ -2,7 +2,6 @@
 title: Intermediate Rails Code Review
 category: activities
 layout: post
-tags: frontpage
 ---
 
 On Friday, December 14, [Gregory Brown][gregory] will be offering up one of his
